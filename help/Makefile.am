@@ -1,6 +1,6 @@
 @YELP_HELP_RULES@
 
-HELP_ID = gnome-music
+HELP_ID = gsub
 
 HELP_FILES = \
         introduction.page \
@@ -17,6 +17,6 @@ HELP_FILES = \
         legal.xml
 
 HELP_MEDIA = \
-        figures/gnome-music-3.12.png
+        figures/gsub-3.12.png
 
 HELP_LINGUAS = cs da de el es fr gl hu ko pt_BR ro sv

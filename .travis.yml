@@ -4,8 +4,8 @@ python:
 install:
   - pip install pep8 pyflakes --use-mirrors
 script:
-  - "pyflakes gnomemusic"
-  - "pep8 --ignore=E501,E225,E265,E402 --show-source --show-pep8 gnomemusic"
+  - "pyflakes gsub"
+  - "pep8 --ignore=E501,E225,E265,E402 --show-source --show-pep8 gsub"
 notifications:
   webhooks:
     urls:

@@ -1,6 +1,6 @@
-# Dutch translation for gnome-music.
+# Dutch translation for gsub.
 #
-# This file is distributed under the same license as the gnome-music package.
+# This file is distributed under the same license as the gsub package.
 #
 #
 # Erwin Poeze <donnut@outlook.com>, 2013, 2014.
@@ -9,7 +9,7 @@
 # Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music\n"
+"Project-Id-Version: gsub\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "music&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-04-02 19:17+0000\n"
@@ -24,36 +24,36 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 "X-Project-Style: gnome\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "Venstergrootte"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "Venstergrootte (breedte en hoogte)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "Vensterpositie"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "Vensterpositie (x en y)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "Venster gemaximaliseerd"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "Venster is gemaximaliseerd."
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "Modus herhaald afspelen"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -64,29 +64,29 @@ msgstr ""
 "worden. Toegestaan zijn: ‘none’ (uit), ‘song’ (huidige nummer herhalen), "
 "‘all’ (speellijst herhalen), ‘shuffle’ (speellijst husselen en herhalen)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "Zoekmodus"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "Bij 'true' wordt de zoekbalk getoond."
 
-#: ../data/org.gnome.Music.gschema.xml.h:12
+#: ../data/eu.depau.GSub.gschema.xml.h:12
 msgid "Notifications mode"
 msgstr "Notificatiemodus"
 
-#: ../data/org.gnome.Music.gschema.xml.h:13
+#: ../data/eu.depau.GSub.gschema.xml.h:13
 msgid "Enables or disables playback notifications"
 msgstr "Schakelt afspeelnotificaties in of uit"
 
-#: ../data/org.gnome.Music.gschema.xml.h:14
+#: ../data/eu.depau.GSub.gschema.xml.h:14
 msgid "Max chars to display in track name on Artist view"
 msgstr ""
 "Maximum aantal weer te geven tekens in de naam van het nummer in "
 "artiestweergave"
 
-#: ../data/org.gnome.Music.gschema.xml.h:15
+#: ../data/eu.depau.GSub.gschema.xml.h:15
 msgid ""
 "This setting modifies the amount of chars for track title on Artist view "
 "before its been ellipsized. Set this to -1 to disable"
@@ -95,108 +95,108 @@ msgstr ""
 "van het nummer in artiestweergave voor deze wordt afgekort. Stel in als -1 om "
 "uit te schakelen"
 
-#: ../data/org.gnome.Music.gschema.xml.h:16
+#: ../data/eu.depau.GSub.gschema.xml.h:16
 msgid "Enable ReplayGain"
 msgstr "ReplayGain inschakelen"
 
-#: ../data/org.gnome.Music.gschema.xml.h:17
+#: ../data/eu.depau.GSub.gschema.xml.h:17
 msgid "Enables or disables ReplayGain for albums"
 msgstr "Schakelt ReplayGain in of uit voor albums"
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:50
-#: ../gnomemusic/application.py:113 ../gnomemusic/toolbar.py:140
-#: ../gnomemusic/window.py:59 ../data/AboutDialog.ui.in.h:1
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:50
+#: ../pygsub/application.py:113 ../pygsub/toolbar.py:140
+#: ../pygsub/window.py:59 ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "Muziek"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "Muziekspeler"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "Uw muziekverzameling beluisteren en beheren"
 
-#: ../data/gnome-music.desktop.in.h:4
+#: ../data/gsub.desktop.in.h:4
 msgid "Music;Player;"
 msgstr "Muziek;Speler;"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "Gnome Muziek"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "Muziek is de nieuwe muziekspeler van Gnome."
 
-#: ../gnomemusic/albumArtCache.py:103 ../gnomemusic/albumArtCache.py:111
+#: ../pygsub/albumArtCache.py:103 ../pygsub/albumArtCache.py:111
 msgid "Untitled"
 msgstr "Naamloos"
 
-#: ../gnomemusic/mpris.py:148 ../gnomemusic/notification.py:100
-#: ../gnomemusic/player.py:470 ../gnomemusic/view.py:537
-#: ../gnomemusic/view.py:968 ../gnomemusic/view.py:1387
+#: ../pygsub/mpris.py:148 ../pygsub/notification.py:100
+#: ../pygsub/player.py:470 ../pygsub/view.py:537
+#: ../pygsub/view.py:968 ../pygsub/view.py:1387
 msgid "Unknown Album"
 msgstr "Onbekend album"
 
-#: ../gnomemusic/mpris.py:164 ../gnomemusic/notification.py:98
-#: ../gnomemusic/player.py:461 ../gnomemusic/view.py:222
-#: ../gnomemusic/view.py:437 ../gnomemusic/view.py:710
-#: ../gnomemusic/view.py:1150 ../gnomemusic/view.py:1385
-#: ../gnomemusic/view.py:1421 ../gnomemusic/widgets.py:235
-#: ../gnomemusic/widgets.py:631
+#: ../pygsub/mpris.py:164 ../pygsub/notification.py:98
+#: ../pygsub/player.py:461 ../pygsub/view.py:222
+#: ../pygsub/view.py:437 ../pygsub/view.py:710
+#: ../pygsub/view.py:1150 ../pygsub/view.py:1385
+#: ../pygsub/view.py:1421 ../pygsub/widgets.py:235
+#: ../pygsub/widgets.py:631
 msgid "Unknown Artist"
 msgstr "Onbekende artiest"
 
-#: ../gnomemusic/notification.py:89
+#: ../pygsub/notification.py:89
 msgid "Not playing"
 msgstr "Afspelen gestopt"
 
 #. TRANSLATORS: by refers to the artist, from to the album
-#: ../gnomemusic/notification.py:104
+#: ../pygsub/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "door %s, van %s"
 
-#: ../gnomemusic/notification.py:125 ../data/PlayerToolbar.ui.h:5
+#: ../pygsub/notification.py:125 ../data/PlayerToolbar.ui.h:5
 msgid "Previous"
 msgstr "Vorige"
 
-#: ../gnomemusic/notification.py:128 ../gnomemusic/player.py:418
+#: ../pygsub/notification.py:128 ../pygsub/player.py:418
 msgid "Pause"
 msgstr "Pauzeren"
 
-#: ../gnomemusic/notification.py:131 ../gnomemusic/player.py:421
+#: ../pygsub/notification.py:131 ../pygsub/player.py:421
 #: ../data/PlayerToolbar.ui.h:6
 msgid "Play"
 msgstr "Afspelen"
 
-#: ../gnomemusic/notification.py:133 ../data/PlayerToolbar.ui.h:7
+#: ../pygsub/notification.py:133 ../data/PlayerToolbar.ui.h:7
 msgid "Next"
 msgstr "Volgende"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:49
+#: ../pygsub/playlists.py:49
 msgid "Most Played"
 msgstr "Meest afgespeeld"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:56
+#: ../pygsub/playlists.py:56
 msgid "Never Played"
 msgstr "Nooit afgespeeld"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:63
+#: ../pygsub/playlists.py:63
 msgid "Recently Played"
 msgstr "Onlangs afgespeeld"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:70
+#: ../pygsub/playlists.py:70
 msgid "Recently Added"
 msgstr "Onlangs toegevoegd"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:77
+#: ../pygsub/playlists.py:77
 msgid "Favorite Songs"
 msgstr "Favoriete nummers"
 
@@ -204,108 +204,108 @@ msgstr "Favoriete nummers"
 #. (such as 'the') that should be ignored when alphabetizing artists/albums. This
 #. list should include 'the' regardless of language. If some articles occur more
 #. frequently than others, most common should appear first, least common last.
-#: ../gnomemusic/query.py:69
+#: ../pygsub/query.py:69
 msgid "the a an"
 msgstr "the de het een a an"
 
-#: ../gnomemusic/searchbar.py:58 ../gnomemusic/searchbar.py:101
+#: ../pygsub/searchbar.py:58 ../pygsub/searchbar.py:101
 msgid "All"
 msgstr "Alles"
 
-#: ../gnomemusic/searchbar.py:59
+#: ../pygsub/searchbar.py:59
 msgid "Artist"
 msgstr "Artiest"
 
-#: ../gnomemusic/searchbar.py:60
+#: ../pygsub/searchbar.py:60
 msgid "Album"
 msgstr "Album"
 
-#: ../gnomemusic/searchbar.py:61
+#: ../pygsub/searchbar.py:61
 msgid "Track Title"
 msgstr "titel van het nummer"
 
-#: ../gnomemusic/searchbar.py:102
+#: ../pygsub/searchbar.py:102
 msgid "Local"
 msgstr "Lokaal"
 
-#: ../gnomemusic/searchbar.py:204
+#: ../pygsub/searchbar.py:204
 msgid "Sources"
 msgstr "Bronnen"
 
-#: ../gnomemusic/searchbar.py:211
+#: ../pygsub/searchbar.py:211
 msgid "Match"
 msgstr "Overeenkomst"
 
-#: ../gnomemusic/view.py:190 ../gnomemusic/widgets.py:267
-#: ../gnomemusic/widgets.py:508 ../gnomemusic/window.py:292
+#: ../pygsub/view.py:190 ../pygsub/widgets.py:267
+#: ../pygsub/widgets.py:508 ../pygsub/window.py:292
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
 msgstr[0] "%d item geselecteerd"
 msgstr[1] "%d items geselecteerd"
 
-#: ../gnomemusic/view.py:192 ../gnomemusic/widgets.py:269
-#: ../gnomemusic/widgets.py:510 ../gnomemusic/window.py:296
-#: ../gnomemusic/window.py:308 ../data/headerbar.ui.h:3
+#: ../pygsub/view.py:192 ../pygsub/widgets.py:269
+#: ../pygsub/widgets.py:510 ../pygsub/window.py:296
+#: ../pygsub/window.py:308 ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "Klik op items om deze te selecteren"
 
-#: ../gnomemusic/view.py:279 ../gnomemusic/view.py:1645
+#: ../pygsub/view.py:279 ../pygsub/view.py:1645
 msgid "Albums"
 msgstr "Muziekalbum"
 
-#: ../gnomemusic/view.py:371 ../gnomemusic/view.py:1647
+#: ../pygsub/view.py:371 ../pygsub/view.py:1647
 msgid "Songs"
 msgstr "Nummers"
 
-#: ../gnomemusic/view.py:569 ../gnomemusic/view.py:1646
+#: ../pygsub/view.py:569 ../pygsub/view.py:1646
 msgid "Artists"
 msgstr "Artiesten"
 
-#: ../gnomemusic/view.py:615 ../gnomemusic/view.py:617
-#: ../gnomemusic/widgets.py:517
+#: ../pygsub/view.py:615 ../pygsub/view.py:617
+#: ../pygsub/widgets.py:517
 msgid "All Artists"
 msgstr "Alle artiesten"
 
-#: ../gnomemusic/view.py:795 ../gnomemusic/view.py:1648
+#: ../pygsub/view.py:795 ../pygsub/view.py:1648
 msgid "Playlists"
 msgstr "Afspeellijsten"
 
-#: ../gnomemusic/view.py:1161
+#: ../pygsub/view.py:1161
 #, python-format
 msgid "%d Song"
 msgid_plural "%d Songs"
 msgstr[0] "%d nummer"
 msgstr[1] "%d nummers"
 
-#: ../gnomemusic/widgets.py:308 ../gnomemusic/widgets.py:342
+#: ../pygsub/widgets.py:308 ../pygsub/widgets.py:342
 #, python-format
 msgid "%d min"
 msgstr "%d min"
 
-#: ../gnomemusic/widgets.py:755
+#: ../pygsub/widgets.py:755
 msgid "New Playlist"
 msgstr "Nieuwe afspeellijst"
 
-#: ../gnomemusic/window.py:240
+#: ../pygsub/window.py:240
 msgid "Empty"
 msgstr "Leeg"
 
-#: ../gnomemusic/window.py:320
+#: ../pygsub/window.py:320
 msgid "Loading"
 msgstr "Laden"
 
-#: ../gnomemusic/window.py:335
+#: ../pygsub/window.py:335
 msgid "_Undo"
 msgstr "_Ongedaan maken"
 
-#: ../gnomemusic/window.py:336
+#: ../pygsub/window.py:336
 #, python-format
 msgid "Playlist %s removed"
 msgstr "Afspeellijst %s verwijderd"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
 msgstr "Copyright © 2013 Gnome Music ontwikkelaars"
 
 #: ../data/AboutDialog.ui.in.h:3
@@ -313,29 +313,29 @@ msgid "A music player and management application for GNOME."
 msgstr "Een muziekspeler en beheertoepassing voor GNOME."
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "Bezoek de Gnome Music-website"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version."

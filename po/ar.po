@@ -22,36 +22,36 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "حجم النافذة"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "حجم النافذة (العرض والارتفاع)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "موضع النافذة"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "موضع النافذة (x و y)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "النافذة مُكبّرة"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "حالة تكبير النافذة."
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "وضع تكرار التشغيل"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -63,112 +63,112 @@ msgstr ""
 "الأغنية الحالية)، \"all\" (تكرار قائمة الأغاني، لا خلط)، \"shuffle\" (خلط "
 "قائمة الأغاني، يفترض تكرار كل شيء)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "وضع البحث"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "إذا كان صحيحًا، سيظهر شريط البحث."
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:50
-#: ../gnomemusic/application.py:112 ../gnomemusic/window.py:62
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:50
+#: ../pygsub/application.py:112 ../pygsub/window.py:62
 #: ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "موسيقى"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "مشغّل الموسيقى"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "شغل ونظّم مجموعتك الموسيقية"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "موسيقى جنوم"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "موسيقى هو تطبيق جنوم لتشغيل الموسيقى الجديد."
 
-#: ../gnomemusic/albumArtCache.py:100 ../gnomemusic/albumArtCache.py:108
+#: ../pygsub/albumArtCache.py:100 ../pygsub/albumArtCache.py:108
 msgid "Untitled"
 msgstr "غير معنون"
 
-#: ../gnomemusic/mpris.py:133 ../gnomemusic/notification.py:100
-#: ../gnomemusic/player.py:400 ../gnomemusic/view.py:577
-#: ../gnomemusic/view.py:964 ../gnomemusic/view.py:1291
+#: ../pygsub/mpris.py:133 ../pygsub/notification.py:100
+#: ../pygsub/player.py:400 ../pygsub/view.py:577
+#: ../pygsub/view.py:964 ../pygsub/view.py:1291
 msgid "Unknown Album"
 msgstr "ألبوم مجهول"
 
-#: ../gnomemusic/mpris.py:149 ../gnomemusic/notification.py:98
-#: ../gnomemusic/player.py:391 ../gnomemusic/view.py:286
-#: ../gnomemusic/view.py:486 ../gnomemusic/view.py:720
-#: ../gnomemusic/view.py:1068 ../gnomemusic/view.py:1289
-#: ../gnomemusic/view.py:1320 ../gnomemusic/widgets.py:184
-#: ../gnomemusic/widgets.py:563
+#: ../pygsub/mpris.py:149 ../pygsub/notification.py:98
+#: ../pygsub/player.py:391 ../pygsub/view.py:286
+#: ../pygsub/view.py:486 ../pygsub/view.py:720
+#: ../pygsub/view.py:1068 ../pygsub/view.py:1289
+#: ../pygsub/view.py:1320 ../pygsub/widgets.py:184
+#: ../pygsub/widgets.py:563
 msgid "Unknown Artist"
 msgstr "فنّان مجهول"
 
-#: ../gnomemusic/notification.py:89
+#: ../pygsub/notification.py:89
 msgid "Not playing"
 msgstr "متوقّف"
 
 #. TRANSLATORS: by refers to the artist, from to the album
-#: ../gnomemusic/notification.py:104
+#: ../pygsub/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "أدّاها %s، من %s"
 
-#: ../gnomemusic/notification.py:128 ../data/PlayerToolbar.ui.h:5
+#: ../pygsub/notification.py:128 ../data/PlayerToolbar.ui.h:5
 msgid "Previous"
 msgstr "السابقة"
 
-#: ../gnomemusic/notification.py:131 ../gnomemusic/player.py:348
+#: ../pygsub/notification.py:131 ../pygsub/player.py:348
 msgid "Pause"
 msgstr "ألبِث"
 
-#: ../gnomemusic/notification.py:134 ../gnomemusic/player.py:351
+#: ../pygsub/notification.py:134 ../pygsub/player.py:351
 #: ../data/PlayerToolbar.ui.h:6
 msgid "Play"
 msgstr "شغّل"
 
-#: ../gnomemusic/notification.py:136 ../data/PlayerToolbar.ui.h:7
+#: ../pygsub/notification.py:136 ../data/PlayerToolbar.ui.h:7
 msgid "Next"
 msgstr "التالية"
 
-#: ../gnomemusic/searchbar.py:30 ../gnomemusic/searchbar.py:73
+#: ../pygsub/searchbar.py:30 ../pygsub/searchbar.py:73
 msgid "All"
 msgstr "الكلّ"
 
-#: ../gnomemusic/searchbar.py:31
+#: ../pygsub/searchbar.py:31
 msgid "Artist"
 msgstr "الفنّان"
 
-#: ../gnomemusic/searchbar.py:32
+#: ../pygsub/searchbar.py:32
 msgid "Album"
 msgstr "الألبوم"
 
-#: ../gnomemusic/searchbar.py:33
+#: ../pygsub/searchbar.py:33
 msgid "Track Title"
 msgstr "عنوان المقطوعة"
 
-#: ../gnomemusic/searchbar.py:74
+#: ../pygsub/searchbar.py:74
 msgid "Local"
 msgstr "المحليّ"
 
-#: ../gnomemusic/searchbar.py:176
+#: ../pygsub/searchbar.py:176
 msgid "Sources"
 msgstr "المصادر"
 
-#: ../gnomemusic/searchbar.py:183
+#: ../pygsub/searchbar.py:183
 msgid "Match"
 msgstr "طابق"
 
-#: ../gnomemusic/view.py:201 ../gnomemusic/widgets.py:225
-#: ../gnomemusic/widgets.py:442 ../gnomemusic/window.py:278
+#: ../pygsub/view.py:201 ../pygsub/widgets.py:225
+#: ../pygsub/widgets.py:442 ../pygsub/window.py:278
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
@@ -179,13 +179,13 @@ msgstr[3] "%d عناصر محدّدة"
 msgstr[4] "%d عنصرًا محدّدًا"
 msgstr[5] "%d عنصر محدّد"
 
-#: ../gnomemusic/view.py:203 ../gnomemusic/widgets.py:227
-#: ../gnomemusic/widgets.py:444 ../gnomemusic/window.py:282
-#: ../gnomemusic/window.py:294 ../data/headerbar.ui.h:3
+#: ../pygsub/view.py:203 ../pygsub/widgets.py:227
+#: ../pygsub/widgets.py:444 ../pygsub/window.py:282
+#: ../pygsub/window.py:294 ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "انقر على العناصر لتحديدها"
 
-#: ../gnomemusic/view.py:340
+#: ../pygsub/view.py:340
 #, python-format
 msgid ""
 "No Music found!\n"
@@ -194,28 +194,28 @@ msgstr ""
 "لم يُعثر على موسيقى!\n"
 " ضع بعض الملفات في المجلد %s"
 
-#: ../gnomemusic/view.py:348 ../gnomemusic/view.py:1535
+#: ../pygsub/view.py:348 ../pygsub/view.py:1535
 msgid "Albums"
 msgstr "الألبومات"
 
-#: ../gnomemusic/view.py:430 ../gnomemusic/view.py:1537
+#: ../pygsub/view.py:430 ../pygsub/view.py:1537
 msgid "Songs"
 msgstr "الأغاني"
 
-#: ../gnomemusic/view.py:594 ../gnomemusic/view.py:1536
+#: ../pygsub/view.py:594 ../pygsub/view.py:1536
 msgid "Artists"
 msgstr "الفنّانون"
 
-#: ../gnomemusic/view.py:639 ../gnomemusic/view.py:641
-#: ../gnomemusic/widgets.py:451
+#: ../pygsub/view.py:639 ../pygsub/view.py:641
+#: ../pygsub/widgets.py:451
 msgid "All Artists"
 msgstr "كلّ الفنانين"
 
-#: ../gnomemusic/view.py:800 ../gnomemusic/view.py:1538
+#: ../pygsub/view.py:800 ../pygsub/view.py:1538
 msgid "Playlists"
 msgstr "قوائم التشغيل"
 
-#: ../gnomemusic/view.py:1080
+#: ../pygsub/view.py:1080
 #, python-format
 msgid "%d Song"
 msgid_plural "%d Songs"
@@ -226,16 +226,16 @@ msgstr[3] "%d أغاني"
 msgstr[4] "%d أغنية"
 msgstr[5] "%d أغنية"
 
-#: ../gnomemusic/widgets.py:677
+#: ../pygsub/widgets.py:677
 msgid "New Playlist"
 msgstr "قائمة تشغيل جديدة"
 
-#: ../gnomemusic/window.py:226
+#: ../pygsub/window.py:226
 msgid "Empty"
 msgstr "فارغ"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
 msgstr "حقوق النسخ © 2013 مطوّرو موسيقى جنوم"
 
 #: ../data/AboutDialog.ui.in.h:3
@@ -243,29 +243,29 @@ msgid "A music player and management application for GNOME."
 msgstr "برمجية جنوم لتشغيل الموسيقى وإدارتها."
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "زُر موقع وِب موسيقى جنوم"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version."

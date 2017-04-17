@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=Music
+_GenericName=Music Player
+_Comment=Play and organize your music collection
+Icon=gsub
+Exec=gsub
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;AudioVideo;Player;Audio;
+_Keywords=Music;Player;
+StartupNotify=true

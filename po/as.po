@@ -1,11 +1,11 @@
-# Assamese translation for gnome-music.
-# Copyright (C) 2013 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Assamese translation for gsub.
+# Copyright (C) 2013 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 #
 # ngoswami <ngoswami@redhat.com>, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
+"Project-Id-Version: gsub master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "music&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-08-14 06:56+0000\n"
@@ -19,36 +19,36 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "উইন্ডোৰ আকাৰ"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "উইন্ডোৰ আকাৰ (প্ৰস্থ আৰু উচ্চতা)"
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "উইন্ডোৰ অৱস্থান"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "উইন্ডোৰ অৱস্থান (x আৰু y)।"
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "উইন্ডোৰ সৰ্বাধিক আকাৰ"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "উইন্ডোৰ সৰ্বাধিক আকাৰ অৱস্থা।"
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "প্লেবেক পুনৰাবৃত্তি অৱস্থা"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -62,127 +62,127 @@ msgstr ""
 "\"all\" (প্লেলিস্টৰ পুনৰাবৃত্তি, ছাফল নাই), \"shuffle\" (প্লেলিস্ট ছাফল কৰক, "
 "পুনৰাবৃত্তি ভাৱি লয়)।"
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "সন্ধান অৱস্থা"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "যদি সত্য, সন্ধান বাৰ দেখুৱা হয়।"
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:50
-#: ../gnomemusic/application.py:112 ../gnomemusic/window.py:62
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:50
+#: ../pygsub/application.py:112 ../pygsub/window.py:62
 #: ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "সংগীত"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "সংগীত প্লেয়াৰ"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "আপোনাৰ সংগীত সংগ্ৰহ বজাওক আৰু সংগঠিত কৰক"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "GNOME সংগীত"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "সংগীত হল নতুন GNOME সংগীত বজোৱা এপ্লিকেচন।"
 
-#: ../gnomemusic/albumArtCache.py:100 ../gnomemusic/albumArtCache.py:108
+#: ../pygsub/albumArtCache.py:100 ../pygsub/albumArtCache.py:108
 msgid "Untitled"
 msgstr "শীৰ্ষকহীন"
 
-#: ../gnomemusic/mpris.py:133 ../gnomemusic/notification.py:100
-#: ../gnomemusic/player.py:400 ../gnomemusic/view.py:577
-#: ../gnomemusic/view.py:964 ../gnomemusic/view.py:1291
+#: ../pygsub/mpris.py:133 ../pygsub/notification.py:100
+#: ../pygsub/player.py:400 ../pygsub/view.py:577
+#: ../pygsub/view.py:964 ../pygsub/view.py:1291
 msgid "Unknown Album"
 msgstr "অজ্ঞাত এলবাম"
 
-#: ../gnomemusic/mpris.py:149 ../gnomemusic/notification.py:98
-#: ../gnomemusic/player.py:391 ../gnomemusic/view.py:286
-#: ../gnomemusic/view.py:486 ../gnomemusic/view.py:720
-#: ../gnomemusic/view.py:1068 ../gnomemusic/view.py:1289
-#: ../gnomemusic/view.py:1320 ../gnomemusic/widgets.py:184
-#: ../gnomemusic/widgets.py:563
+#: ../pygsub/mpris.py:149 ../pygsub/notification.py:98
+#: ../pygsub/player.py:391 ../pygsub/view.py:286
+#: ../pygsub/view.py:486 ../pygsub/view.py:720
+#: ../pygsub/view.py:1068 ../pygsub/view.py:1289
+#: ../pygsub/view.py:1320 ../pygsub/widgets.py:184
+#: ../pygsub/widgets.py:563
 msgid "Unknown Artist"
 msgstr "অজ্ঞাত শিল্পী"
 
-#: ../gnomemusic/notification.py:89
+#: ../pygsub/notification.py:89
 msgid "Not playing"
 msgstr "বজোৱা নাই"
 
 #. TRANSLATORS: by refers to the artist, from to the album
-#: ../gnomemusic/notification.py:104
+#: ../pygsub/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "%s দ্বাৰা, %s ৰ পৰা"
 
-#: ../gnomemusic/notification.py:130 ../data/PlayerToolbar.ui.h:5
+#: ../pygsub/notification.py:130 ../data/PlayerToolbar.ui.h:5
 msgid "Previous"
 msgstr "পূৰ্বৱৰ্তী"
 
-#: ../gnomemusic/notification.py:133 ../gnomemusic/player.py:348
+#: ../pygsub/notification.py:133 ../pygsub/player.py:348
 msgid "Pause"
 msgstr "বিৰাম দিয়ক"
 
-#: ../gnomemusic/notification.py:136 ../gnomemusic/player.py:351
+#: ../pygsub/notification.py:136 ../pygsub/player.py:351
 #: ../data/PlayerToolbar.ui.h:6
 msgid "Play"
 msgstr "বজাওক"
 
-#: ../gnomemusic/notification.py:138 ../data/PlayerToolbar.ui.h:7
+#: ../pygsub/notification.py:138 ../data/PlayerToolbar.ui.h:7
 msgid "Next"
 msgstr "পৰৱৰ্তী"
 
-#: ../gnomemusic/searchbar.py:30 ../gnomemusic/searchbar.py:73
+#: ../pygsub/searchbar.py:30 ../pygsub/searchbar.py:73
 msgid "All"
 msgstr "সকলো"
 
-#: ../gnomemusic/searchbar.py:31
+#: ../pygsub/searchbar.py:31
 #| msgid "Artists"
 msgid "Artist"
 msgstr "শিল্পী"
 
-#: ../gnomemusic/searchbar.py:32
+#: ../pygsub/searchbar.py:32
 #| msgid "Albums"
 msgid "Album"
 msgstr "এলবাম"
 
-#: ../gnomemusic/searchbar.py:33
+#: ../pygsub/searchbar.py:33
 msgid "Track Title"
 msgstr "ট্ৰেকৰ শীৰ্ষক"
 
-#: ../gnomemusic/searchbar.py:74
+#: ../pygsub/searchbar.py:74
 msgid "Local"
 msgstr "স্থানীয়"
 
-#: ../gnomemusic/searchbar.py:176
+#: ../pygsub/searchbar.py:176
 msgid "Sources"
 msgstr "উৎসসমূহ"
 
-#: ../gnomemusic/searchbar.py:183
+#: ../pygsub/searchbar.py:183
 msgid "Match"
 msgstr "মিল"
 
-#: ../gnomemusic/view.py:201 ../gnomemusic/widgets.py:225
-#: ../gnomemusic/widgets.py:442 ../gnomemusic/window.py:278
+#: ../pygsub/view.py:201 ../pygsub/widgets.py:225
+#: ../pygsub/widgets.py:442 ../pygsub/window.py:278
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
 msgstr[0] "নিৰ্বাচিত %d বস্তু"
 msgstr[1] "নিৰ্বাচিত %d বস্তুবোৰ"
 
-#: ../gnomemusic/view.py:203 ../gnomemusic/widgets.py:227
-#: ../gnomemusic/widgets.py:444 ../gnomemusic/window.py:282
-#: ../gnomemusic/window.py:294 ../data/headerbar.ui.h:3
+#: ../pygsub/view.py:203 ../pygsub/widgets.py:227
+#: ../pygsub/widgets.py:444 ../pygsub/window.py:282
+#: ../pygsub/window.py:294 ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "বস্তুবোৰ নিৰ্বাচন কৰিবলৈ সিহতক ক্লিক কৰক"
 
-#: ../gnomemusic/view.py:340
+#: ../pygsub/view.py:340
 #, python-format
 msgid ""
 "No Music found!\n"
@@ -191,28 +191,28 @@ msgstr ""
 "কোনো সংগীত পোৱা নগল!\n"
 " ফোল্ডাৰ %s ত কিছুমান ফাইল থওক"
 
-#: ../gnomemusic/view.py:348 ../gnomemusic/view.py:1535
+#: ../pygsub/view.py:348 ../pygsub/view.py:1535
 msgid "Albums"
 msgstr "এলবামসমূহ"
 
-#: ../gnomemusic/view.py:430 ../gnomemusic/view.py:1537
+#: ../pygsub/view.py:430 ../pygsub/view.py:1537
 msgid "Songs"
 msgstr "সংগীতবোৰ"
 
-#: ../gnomemusic/view.py:594 ../gnomemusic/view.py:1536
+#: ../pygsub/view.py:594 ../pygsub/view.py:1536
 msgid "Artists"
 msgstr "শিল্পীসকল"
 
-#: ../gnomemusic/view.py:639 ../gnomemusic/view.py:641
-#: ../gnomemusic/widgets.py:451
+#: ../pygsub/view.py:639 ../pygsub/view.py:641
+#: ../pygsub/widgets.py:451
 msgid "All Artists"
 msgstr "সকলো শিল্পী"
 
-#: ../gnomemusic/view.py:800 ../gnomemusic/view.py:1538
+#: ../pygsub/view.py:800 ../pygsub/view.py:1538
 msgid "Playlists"
 msgstr "প্লেলিস্টসমূহ"
 
-#: ../gnomemusic/view.py:1080
+#: ../pygsub/view.py:1080
 #, python-format
 #| msgid "Songs"
 msgid "%d Song"
@@ -220,22 +220,22 @@ msgid_plural "%d Songs"
 msgstr[0] "%d গান"
 msgstr[1] "%d গানসমূহ"
 
-#: ../gnomemusic/widgets.py:273 ../gnomemusic/widgets.py:311
+#: ../pygsub/widgets.py:273 ../pygsub/widgets.py:311
 #, python-format
 msgid "%d min"
 msgstr "%d মিন"
 
-#: ../gnomemusic/widgets.py:677
+#: ../pygsub/widgets.py:677
 #| msgid "_New Playlist"
 msgid "New Playlist"
 msgstr "নতুন প্লেলিস্ট"
 
-#: ../gnomemusic/window.py:226
+#: ../pygsub/window.py:226
 msgid "Empty"
 msgstr "ৰিক্ত"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
 msgstr "স্বত্বাধিকাৰ © ২০১৩ GNOME সংগীত উন্নয়নকাৰীসকল"
 
 #: ../data/AboutDialog.ui.in.h:3
@@ -243,29 +243,29 @@ msgid "A music player and management application for GNOME."
 msgstr "GNOME ৰ বাবে এটা সংগীত প্লেয়াৰ আৰু ব্যৱস্থাপনা এপ্লিকেচন।"
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "GNOME সংগীত ৱেবছাইটলৈ যাওক"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version."

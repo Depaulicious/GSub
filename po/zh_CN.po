@@ -1,6 +1,6 @@
-# Chinese (China) translation for gnome-music.
-# Copyright (C) 2013 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Chinese (China) translation for gsub.
+# Copyright (C) 2013 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 # tuhaihe <1132321739qq@gmail.com>, 2013.
 # Tong Hui <tonghuix@gmail.com>, 2013.
 # sphinx <yishanj@gmail.com>, 2014.
@@ -8,7 +8,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
+"Project-Id-Version: gsub master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "music&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-10-09 14:42+0000\n"
@@ -22,36 +22,36 @@ msgstr ""
 "X-Generator: Poedit 1.8.11\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "窗口大小"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "窗口大小(宽与高)。"
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "窗口位置"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "窗口位置(水平和竖直)。"
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "窗口最大化"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "窗口最大化状态。"
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "重复播放模式"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -62,151 +62,151 @@ msgstr ""
 "机)、“song”(重复当前歌曲)、“all”(重复播放列表，非随机)、“shuffle”(随机播放列"
 "表，假定重复全部)。"
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "搜索模式"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "如果为真，则显示搜索框。"
 
-#: ../data/org.gnome.Music.gschema.xml.h:12
+#: ../data/eu.depau.GSub.gschema.xml.h:12
 msgid "Notifications mode"
 msgstr "通知模式"
 
-#: ../data/org.gnome.Music.gschema.xml.h:13
+#: ../data/eu.depau.GSub.gschema.xml.h:13
 msgid "Enables or disables playback notifications"
 msgstr "启用或禁用播放的通知"
 
-#: ../data/org.gnome.Music.gschema.xml.h:14
+#: ../data/eu.depau.GSub.gschema.xml.h:14
 msgid "Max chars to display in track name on Artist view"
 msgstr "在艺术家视图中显示音轨名称的最多字符数"
 
-#: ../data/org.gnome.Music.gschema.xml.h:15
+#: ../data/eu.depau.GSub.gschema.xml.h:15
 msgid ""
 "This setting modifies the amount of chars for track title on Artist view "
 "before its been ellipsized. Set this to -1 to disable"
 msgstr "此设置改变艺术家视图中音轨标题在省略号前显示的字符数量。设为 -1 则禁用"
 
-#: ../data/org.gnome.Music.gschema.xml.h:16
+#: ../data/eu.depau.GSub.gschema.xml.h:16
 msgid "Enable ReplayGain"
 msgstr "启用回放增益"
 
-#: ../data/org.gnome.Music.gschema.xml.h:17
+#: ../data/eu.depau.GSub.gschema.xml.h:17
 msgid "Enables or disables ReplayGain for albums"
 msgstr "启用或禁用专辑的回放增益"
 
-#: ../data/org.gnome.Music.gschema.xml.h:18
+#: ../data/eu.depau.GSub.gschema.xml.h:18
 msgid "Inital state has been displayed"
 msgstr "初始状态已被显示"
 
-#: ../data/org.gnome.Music.gschema.xml.h:19
+#: ../data/eu.depau.GSub.gschema.xml.h:19
 msgid "Set to true when initial state has been displayed"
 msgstr "当初始状态被显示时设置为 true"
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:55
-#: ../gnomemusic/application.py:107 ../gnomemusic/toolbar.py:90
-#: ../gnomemusic/window.py:62 ../data/AboutDialog.ui.in.h:1
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:55
+#: ../pygsub/application.py:107 ../pygsub/toolbar.py:90
+#: ../pygsub/window.py:62 ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "音乐"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "音乐播放器"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "播放与管理您的音乐集"
 
-#: ../data/gnome-music.desktop.in.h:4
+#: ../data/gsub.desktop.in.h:4
 msgid "Music;Player;"
 msgstr "Music;Player;音乐;播放器;"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "GNOME 音乐"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "“音乐”是一款新的 GNOME 音乐播放应用。"
 
-#: ../gnomemusic/albumartcache.py:171 ../gnomemusic/albumartcache.py:179
+#: ../pygsub/albumartcache.py:171 ../pygsub/albumartcache.py:179
 msgid "Untitled"
 msgstr "无标题"
 
-#: ../gnomemusic/mpris.py:315 ../gnomemusic/player.py:604
-#: ../gnomemusic/view.py:758 ../gnomemusic/view.py:1170
-#: ../gnomemusic/view.py:1643
+#: ../pygsub/mpris.py:315 ../pygsub/player.py:604
+#: ../pygsub/view.py:758 ../pygsub/view.py:1170
+#: ../pygsub/view.py:1643
 msgid "Unknown Album"
 msgstr "未知专辑"
 
-#: ../gnomemusic/notification.py:55 ../data/PlayerToolbar.ui.h:6
+#: ../pygsub/notification.py:55 ../data/PlayerToolbar.ui.h:6
 msgid "Previous"
 msgstr "上一首"
 
-#: ../gnomemusic/notification.py:58 ../gnomemusic/player.py:557
+#: ../pygsub/notification.py:58 ../pygsub/player.py:557
 msgid "Pause"
 msgstr "暂停"
 
-#: ../gnomemusic/notification.py:61 ../gnomemusic/player.py:560
+#: ../pygsub/notification.py:61 ../pygsub/player.py:560
 #: ../data/PlayerToolbar.ui.h:7
 msgid "Play"
 msgstr "播放"
 
-#: ../gnomemusic/notification.py:63 ../data/PlayerToolbar.ui.h:8
+#: ../pygsub/notification.py:63 ../data/PlayerToolbar.ui.h:8
 msgid "Next"
 msgstr "下一首"
 
-#: ../gnomemusic/player.py:1087
+#: ../pygsub/player.py:1087
 msgid "Unable to play the file"
 msgstr "无法播放该文件"
 
 #. TRANSLATORS: this is a button to launch a codec installer.
 #. %s will be replaced with the software installer's name, e.g.
 #. 'Software' in case of gnome-software.
-#: ../gnomemusic/player.py:1092
+#: ../pygsub/player.py:1092
 #, python-format
 msgid "_Find in %s"
 msgstr "在 %s 中查找(_F)"
 
 #. TRANSLATORS: separator for a list of codecs
-#: ../gnomemusic/player.py:1102
+#: ../pygsub/player.py:1102
 msgid " and "
 msgstr " 和 "
 
 #. TRANSLATORS: separator for a list of codecs
-#: ../gnomemusic/player.py:1105
+#: ../pygsub/player.py:1105
 msgid ", "
 msgstr ", "
 
-#: ../gnomemusic/player.py:1106
+#: ../pygsub/player.py:1106
 #, python-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "需要 %s 来播放该文件，但它尚未安装。"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:52
+#: ../pygsub/playlists.py:52
 msgid "Most Played"
 msgstr "最多播放"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:58
+#: ../pygsub/playlists.py:58
 msgid "Never Played"
 msgstr "从未播放"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:64
+#: ../pygsub/playlists.py:64
 msgid "Recently Played"
 msgstr "最近播放"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:70
+#: ../pygsub/playlists.py:70
 msgid "Recently Added"
 msgstr "最近添加"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:76
+#: ../pygsub/playlists.py:76
 msgid "Favorite Songs"
 msgstr "收藏歌曲"
 
@@ -217,118 +217,118 @@ msgstr "收藏歌曲"
 #. language because it is so universal.
 #. If some articles occur more frequently than others, the most
 #. common one should appear first, the least common one last.
-#: ../gnomemusic/query.py:93
+#: ../pygsub/query.py:93
 #, fuzzy
 msgid "the a an"
 msgstr "the a an"
 
-#: ../gnomemusic/searchbar.py:62 ../gnomemusic/searchbar.py:109
+#: ../pygsub/searchbar.py:62 ../pygsub/searchbar.py:109
 msgid "All"
 msgstr "全部"
 
-#: ../gnomemusic/searchbar.py:63
+#: ../pygsub/searchbar.py:63
 msgid "Artist"
 msgstr "艺术家"
 
-#: ../gnomemusic/searchbar.py:64
+#: ../pygsub/searchbar.py:64
 msgid "Album"
 msgstr "专辑"
 
-#: ../gnomemusic/searchbar.py:65
+#: ../pygsub/searchbar.py:65
 msgid "Track Title"
 msgstr "音轨标题"
 
-#: ../gnomemusic/searchbar.py:110
+#: ../pygsub/searchbar.py:110
 msgid "Local"
 msgstr "本地"
 
-#: ../gnomemusic/searchbar.py:222
+#: ../pygsub/searchbar.py:222
 msgid "Sources"
 msgstr "来源"
 
-#: ../gnomemusic/searchbar.py:229
+#: ../pygsub/searchbar.py:229
 msgid "Match"
 msgstr "匹配"
 
-#: ../gnomemusic/utils.py:44 ../gnomemusic/view.py:1348
+#: ../pygsub/utils.py:44 ../pygsub/view.py:1348
 msgid "Unknown Artist"
 msgstr "未知艺术家"
 
-#: ../gnomemusic/view.py:215 ../gnomemusic/widgets.py:325
-#: ../gnomemusic/widgets.py:590
+#: ../pygsub/view.py:215 ../pygsub/widgets.py:325
+#: ../pygsub/widgets.py:590
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
 msgstr[0] "已选择 %d 个项目"
 
-#: ../gnomemusic/view.py:217 ../gnomemusic/view.py:311
-#: ../gnomemusic/widgets.py:329 ../gnomemusic/widgets.py:592
+#: ../pygsub/view.py:217 ../pygsub/view.py:311
+#: ../pygsub/widgets.py:329 ../pygsub/widgets.py:592
 #: ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "点击条目以选中它们"
 
-#: ../gnomemusic/view.py:333
+#: ../pygsub/view.py:333
 msgid "Music folder"
 msgstr "音乐文件夹"
 
-#: ../gnomemusic/view.py:356
+#: ../pygsub/view.py:356
 msgid "Hey DJ"
 msgstr "嘿 DJ"
 
-#: ../gnomemusic/view.py:368 ../gnomemusic/view.py:1918
+#: ../pygsub/view.py:368 ../pygsub/view.py:1918
 msgid "Albums"
 msgstr "专辑"
 
-#: ../gnomemusic/view.py:595 ../gnomemusic/view.py:1920
+#: ../pygsub/view.py:595 ../pygsub/view.py:1920
 msgid "Songs"
 msgstr "歌曲"
 
-#: ../gnomemusic/view.py:794 ../gnomemusic/view.py:1919
+#: ../pygsub/view.py:794 ../pygsub/view.py:1919
 msgid "Artists"
 msgstr "艺术家"
 
-#: ../gnomemusic/view.py:996 ../gnomemusic/view.py:1921
+#: ../pygsub/view.py:996 ../pygsub/view.py:1921
 msgid "Playlists"
 msgstr "播放列表"
 
-#: ../gnomemusic/view.py:1358
+#: ../pygsub/view.py:1358
 #, python-format
 msgid "%d Song"
 msgid_plural "%d Songs"
 msgstr[0] "%d 首歌曲"
 
-#: ../gnomemusic/view.py:1501
+#: ../pygsub/view.py:1501
 msgid "Try a different search"
 msgstr "尝试不同的搜索"
 
-#: ../gnomemusic/widgets.py:381 ../gnomemusic/widgets.py:429
+#: ../pygsub/widgets.py:381 ../pygsub/widgets.py:429
 #, python-format
 msgid "%d min"
 msgstr "%d 分钟"
 
-#: ../gnomemusic/widgets.py:602
+#: ../pygsub/widgets.py:602
 msgid "All Artists"
 msgstr "全部艺术家"
 
-#: ../gnomemusic/window.py:256
+#: ../pygsub/window.py:256
 msgid "Empty"
 msgstr "空"
 
-#: ../gnomemusic/window.py:320
+#: ../pygsub/window.py:320
 msgid "Loading"
 msgstr "正在加载"
 
-#: ../gnomemusic/window.py:343
+#: ../pygsub/window.py:343
 msgid "_Undo"
 msgstr "撤销(_U)"
 
-#: ../gnomemusic/window.py:344
+#: ../pygsub/window.py:344
 #, python-format
 msgid "Playlist %s removed"
 msgstr "播放列表 %s 已移除"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
 msgstr "版权所有 © 2013 GNOME 音乐开发者"
 
 #: ../data/AboutDialog.ui.in.h:3
@@ -336,29 +336,29 @@ msgid "A music player and management application for GNOME."
 msgstr "GNOME 音乐播放及管理程序。"
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "访问 GNOME 音乐网站"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version.\n"

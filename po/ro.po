@@ -1,11 +1,11 @@
-# Romanian translation for gnome-music.
-# Copyright (C) 2014 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Romanian translation for gsub.
+# Copyright (C) 2014 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 # Bogdan Mințoi <mintoi.bogdan@gmail.com>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
+"Project-Id-Version: gsub master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "music&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-07-28 06:59+0000\n"
@@ -20,36 +20,36 @@ msgstr ""
 "20)) ? 1 : 2);\n"
 "X-Generator: Gtranslator 2.91.6\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "Dimensiune fereastră"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "Dimensiune fereastră (înălțime și lățime)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "Poziție fereastră"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "Poziție fereastră (x și y)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "Fereastră maximizată"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "Starea ferestrei maximizată."
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "Modul de repetare a redării"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -62,114 +62,114 @@ msgstr ""
 "toată lista de redare, fără amestecare), „amestecare” (amestecă lista de "
 "redare, probabil se repetă tot)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "Mod de căutare"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "Dacă este adevărat, bara de căutare va fi afișată."
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:50
-#: ../gnomemusic/application.py:112 ../gnomemusic/window.py:62
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:50
+#: ../pygsub/application.py:112 ../pygsub/window.py:62
 #: ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "Muzică"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "Redare de muzică"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "Redă și organizează colecția dumneavoastră de muzică"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "Muzică GNOME"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "Muzică este noua aplicație GNOME pentru redare de muzică."
 
-#: ../gnomemusic/albumArtCache.py:100 ../gnomemusic/albumArtCache.py:108
+#: ../pygsub/albumArtCache.py:100 ../pygsub/albumArtCache.py:108
 msgid "Untitled"
 msgstr "Fără titlu"
 
-#: ../gnomemusic/mpris.py:133 ../gnomemusic/notification.py:100
-#: ../gnomemusic/player.py:400 ../gnomemusic/view.py:577
-#: ../gnomemusic/view.py:964 ../gnomemusic/view.py:1291
+#: ../pygsub/mpris.py:133 ../pygsub/notification.py:100
+#: ../pygsub/player.py:400 ../pygsub/view.py:577
+#: ../pygsub/view.py:964 ../pygsub/view.py:1291
 msgid "Unknown Album"
 msgstr "Album necunoscut"
 
-#: ../gnomemusic/mpris.py:149 ../gnomemusic/notification.py:98
-#: ../gnomemusic/player.py:391 ../gnomemusic/view.py:286
-#: ../gnomemusic/view.py:486 ../gnomemusic/view.py:720
-#: ../gnomemusic/view.py:1068 ../gnomemusic/view.py:1289
-#: ../gnomemusic/view.py:1320 ../gnomemusic/widgets.py:184
-#: ../gnomemusic/widgets.py:563
+#: ../pygsub/mpris.py:149 ../pygsub/notification.py:98
+#: ../pygsub/player.py:391 ../pygsub/view.py:286
+#: ../pygsub/view.py:486 ../pygsub/view.py:720
+#: ../pygsub/view.py:1068 ../pygsub/view.py:1289
+#: ../pygsub/view.py:1320 ../pygsub/widgets.py:184
+#: ../pygsub/widgets.py:563
 msgid "Unknown Artist"
 msgstr "Artist necunoscut"
 
-#: ../gnomemusic/notification.py:89
+#: ../pygsub/notification.py:89
 msgid "Not playing"
 msgstr "Nu este în redare"
 
 #. TRANSLATORS: by refers to the artist, from to the album
-#: ../gnomemusic/notification.py:104
+#: ../pygsub/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "de %s, de la %s"
 
-#: ../gnomemusic/notification.py:128 ../data/PlayerToolbar.ui.h:5
+#: ../pygsub/notification.py:128 ../data/PlayerToolbar.ui.h:5
 msgid "Previous"
 msgstr "Precedent"
 
-#: ../gnomemusic/notification.py:131 ../gnomemusic/player.py:348
+#: ../pygsub/notification.py:131 ../pygsub/player.py:348
 msgid "Pause"
 msgstr "Pauză"
 
-#: ../gnomemusic/notification.py:134 ../gnomemusic/player.py:351
+#: ../pygsub/notification.py:134 ../pygsub/player.py:351
 #: ../data/PlayerToolbar.ui.h:6
 msgid "Play"
 msgstr "Redare"
 
-#: ../gnomemusic/notification.py:136 ../data/PlayerToolbar.ui.h:7
+#: ../pygsub/notification.py:136 ../data/PlayerToolbar.ui.h:7
 msgid "Next"
 msgstr "Următorul"
 
-#: ../gnomemusic/searchbar.py:30 ../gnomemusic/searchbar.py:73
+#: ../pygsub/searchbar.py:30 ../pygsub/searchbar.py:73
 msgid "All"
 msgstr "Toate"
 
-#: ../gnomemusic/searchbar.py:31
+#: ../pygsub/searchbar.py:31
 #| msgid "Artists"
 msgid "Artist"
 msgstr "Artist"
 
-#: ../gnomemusic/searchbar.py:32
+#: ../pygsub/searchbar.py:32
 #| msgid "Albums"
 msgid "Album"
 msgstr "Album"
 
-#: ../gnomemusic/searchbar.py:33
+#: ../pygsub/searchbar.py:33
 msgid "Track Title"
 msgstr "Numele melodiei"
 
-#: ../gnomemusic/searchbar.py:74
+#: ../pygsub/searchbar.py:74
 msgid "Local"
 msgstr "Local"
 
-#: ../gnomemusic/searchbar.py:176
+#: ../pygsub/searchbar.py:176
 msgid "Sources"
 msgstr "Surse"
 
-#: ../gnomemusic/searchbar.py:183
+#: ../pygsub/searchbar.py:183
 msgid "Match"
 msgstr "Potrivire"
 
-#: ../gnomemusic/view.py:201 ../gnomemusic/widgets.py:225
-#: ../gnomemusic/widgets.py:442 ../gnomemusic/window.py:278
+#: ../pygsub/view.py:201 ../pygsub/widgets.py:225
+#: ../pygsub/widgets.py:442 ../pygsub/window.py:278
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
@@ -177,13 +177,13 @@ msgstr[0] "Selectat %d element"
 msgstr[1] "Selectat %d elemente"
 msgstr[2] "Selectat %d de elemente"
 
-#: ../gnomemusic/view.py:203 ../gnomemusic/widgets.py:227
-#: ../gnomemusic/widgets.py:444 ../gnomemusic/window.py:282
-#: ../gnomemusic/window.py:294 ../data/headerbar.ui.h:3
+#: ../pygsub/view.py:203 ../pygsub/widgets.py:227
+#: ../pygsub/widgets.py:444 ../pygsub/window.py:282
+#: ../pygsub/window.py:294 ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "Clic pe obiecte pentru a le selecta"
 
-#: ../gnomemusic/view.py:340
+#: ../pygsub/view.py:340
 #, python-format
 msgid ""
 "No Music found!\n"
@@ -192,28 +192,28 @@ msgstr ""
 "Nu s-a găsit nicio muzică!\n"
 " Adăugați câteva fișiere în dosarul %s"
 
-#: ../gnomemusic/view.py:348 ../gnomemusic/view.py:1535
+#: ../pygsub/view.py:348 ../pygsub/view.py:1535
 msgid "Albums"
 msgstr "Albume"
 
-#: ../gnomemusic/view.py:430 ../gnomemusic/view.py:1537
+#: ../pygsub/view.py:430 ../pygsub/view.py:1537
 msgid "Songs"
 msgstr "Melodii"
 
-#: ../gnomemusic/view.py:594 ../gnomemusic/view.py:1536
+#: ../pygsub/view.py:594 ../pygsub/view.py:1536
 msgid "Artists"
 msgstr "Artiști"
 
-#: ../gnomemusic/view.py:639 ../gnomemusic/view.py:641
-#: ../gnomemusic/widgets.py:451
+#: ../pygsub/view.py:639 ../pygsub/view.py:641
+#: ../pygsub/widgets.py:451
 msgid "All Artists"
 msgstr "Toți artiștii"
 
-#: ../gnomemusic/view.py:800 ../gnomemusic/view.py:1538
+#: ../pygsub/view.py:800 ../pygsub/view.py:1538
 msgid "Playlists"
 msgstr "Liste de redare"
 
-#: ../gnomemusic/view.py:1080
+#: ../pygsub/view.py:1080
 #, python-format
 #| msgid "Songs"
 msgid "%d Song"
@@ -222,47 +222,47 @@ msgstr[0] "%d melodie"
 msgstr[1] "%d melodii"
 msgstr[2] "%d de melodii"
 
-#: ../gnomemusic/widgets.py:677
+#: ../pygsub/widgets.py:677
 #| msgid "_New Playlist"
 msgid "New Playlist"
 msgstr "Listă de redare nouă"
 
-#: ../gnomemusic/window.py:226
+#: ../pygsub/window.py:226
 msgid "Empty"
 msgstr "Gol"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
-msgstr "Drepturi de autor © 2013 Dezvoltatorii GNOME Music"
+msgid "Copyright © 2013 GSub Developers"
+msgstr "Drepturi de autor © 2013 Dezvoltatorii GSub"
 
 #: ../data/AboutDialog.ui.in.h:3
 msgid "A music player and management application for GNOME."
 msgstr "O aplicație de administrare și redare de muzică pentru GNOME"
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
-msgstr "Vizitați portalul web al GNOME Music"
+msgid "Visit GSub website"
+msgstr "Vizitați portalul web al GSub"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version."
@@ -281,7 +281,7 @@ msgstr ""
 "acest program; dacă nu, scrieți la Free Software Foundation, Inc., 51 "
 "Franklin St., Fifth Floor, Boston, MA 02110-1301 USA\n"
 "\n"
-"Autorii GNOME Music vă oferă permisiunea de a folosi pluginuri non-GPL "
+"Autorii GSub vă oferă permisiunea de a folosi pluginuri non-GPL "
 "compatibile cu GStreamer și de a le distribui împreună cu GStreamer și "
 "Muzică GNOME.  Această permisiune depășește termenii licenței GPL sub care "
 "Muzică GNOME este pus la dispoziția publicului.  Dacă modificați acest cod, "

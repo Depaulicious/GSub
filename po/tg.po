@@ -1,11 +1,11 @@
-# Tajik translation for gnome-music.
-# Copyright (C) 2013 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Tajik translation for gsub.
+# Copyright (C) 2013 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 # Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2015
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
+"Project-Id-Version: gsub master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "music&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-06-24 19:21+0000\n"
@@ -19,36 +19,36 @@ msgstr ""
 "X-Generator: Poedit 1.7.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "Андозаи равзана"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "Андозаи равзана (бар ва баландӣ)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "Мавқеи равзана"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "Мавқеи равзана (x ва y)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "Равзана дар ҳадди аксар"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "Вазъияти равзана дар ҳадди аксар"
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "Ҳолати такрори пахш"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -61,28 +61,28 @@ msgstr ""
 "тасодуфӣ), \"shuffle\" (тасодуфии рӯйхати пахш, пахши ҳамаи сурудҳоро такрор "
 "мекунад)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "Ҳолати ҷустуҷӯ"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "Агар \"true\" бошад, навори ҷустуҷӯ намоиш дода мешавад."
 
-#: ../data/org.gnome.Music.gschema.xml.h:12
+#: ../data/eu.depau.GSub.gschema.xml.h:12
 msgid "Notifications mode"
 msgstr "Реҷаи огоҳӣ"
 
-#: ../data/org.gnome.Music.gschema.xml.h:13
+#: ../data/eu.depau.GSub.gschema.xml.h:13
 msgid "Enables or disables playback notifications"
 msgstr "Огоҳиҳои пахшро фаъол ё ғайрифаъол мекунад"
 
-#: ../data/org.gnome.Music.gschema.xml.h:14
+#: ../data/eu.depau.GSub.gschema.xml.h:14
 msgid "Max chars to display in track name on Artist view"
 msgstr ""
 "Шумораи имконпазири аломатҳо барои намоиш дар номи роҳча дар намуди ҳунарманд"
 
-#: ../data/org.gnome.Music.gschema.xml.h:15
+#: ../data/eu.depau.GSub.gschema.xml.h:15
 msgid ""
 "This setting modifies the amount of chars for track title on Artist view "
 "before its been ellipsized. Set this to -1 to disable"
@@ -90,117 +90,117 @@ msgstr ""
 "Ин танзим шумораи аломатҳоро дар унвони реҷаи ҳунарманд пеш аз гирд кардани "
 "он тағйир медиҳад. Барои ғайрифаъол кардан, онро ба -1 танзим кунед"
 
-#: ../data/org.gnome.Music.gschema.xml.h:16
+#: ../data/eu.depau.GSub.gschema.xml.h:16
 msgid "Enable ReplayGain"
 msgstr "Фаъол кардани ReplayGain"
 
-#: ../data/org.gnome.Music.gschema.xml.h:17
+#: ../data/eu.depau.GSub.gschema.xml.h:17
 msgid "Enables or disables ReplayGain for albums"
 msgstr "ReplayGain барои албомҳо фаъол ё ғайрифаъол мекунад"
 
-#: ../data/org.gnome.Music.gschema.xml.h:18
+#: ../data/eu.depau.GSub.gschema.xml.h:18
 msgid "Inital state has been displayed"
 msgstr "Вазъияти ибтидоӣ намоиш дода шуд"
 
-#: ../data/org.gnome.Music.gschema.xml.h:19
+#: ../data/eu.depau.GSub.gschema.xml.h:19
 msgid "Set to true when initial state has been displayed"
 msgstr "Вақте ки вазъияти ибтидоӣ намоиш дода мешавад, ба TRUE танзим кунед"
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:50
-#: ../gnomemusic/application.py:113 ../gnomemusic/window.py:59
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:50
+#: ../pygsub/application.py:113 ../pygsub/window.py:59
 #: ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "Мусиқӣ"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "Плеери мусиқӣ"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "Коллексияи мусиқии худро мураттаб ва пахш кунед"
 
-#: ../data/gnome-music.desktop.in.h:4
+#: ../data/gsub.desktop.in.h:4
 msgid "Music;Player;"
 msgstr "Мусиқӣ;Плеер;"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "Мусиқии GNOME"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "Мусиқии GNOME - барномаи нави пахши мусиқӣ мебошад."
 
-#: ../gnomemusic/albumArtCache.py:103 ../gnomemusic/albumArtCache.py:111
+#: ../pygsub/albumArtCache.py:103 ../pygsub/albumArtCache.py:111
 msgid "Untitled"
 msgstr "Беном"
 
-#: ../gnomemusic/mpris.py:148 ../gnomemusic/notification.py:100
-#: ../gnomemusic/player.py:571 ../gnomemusic/view.py:564
-#: ../gnomemusic/view.py:995 ../gnomemusic/view.py:1451
+#: ../pygsub/mpris.py:148 ../pygsub/notification.py:100
+#: ../pygsub/player.py:571 ../pygsub/view.py:564
+#: ../pygsub/view.py:995 ../pygsub/view.py:1451
 msgid "Unknown Album"
 msgstr "Албоми номаълум"
 
-#: ../gnomemusic/mpris.py:164 ../gnomemusic/notification.py:98
-#: ../gnomemusic/player.py:562 ../gnomemusic/view.py:223
-#: ../gnomemusic/view.py:464 ../gnomemusic/view.py:737
-#: ../gnomemusic/view.py:1177 ../gnomemusic/view.py:1449
-#: ../gnomemusic/view.py:1496 ../gnomemusic/widgets.py:235
-#: ../gnomemusic/widgets.py:638
+#: ../pygsub/mpris.py:164 ../pygsub/notification.py:98
+#: ../pygsub/player.py:562 ../pygsub/view.py:223
+#: ../pygsub/view.py:464 ../pygsub/view.py:737
+#: ../pygsub/view.py:1177 ../pygsub/view.py:1449
+#: ../pygsub/view.py:1496 ../pygsub/widgets.py:235
+#: ../pygsub/widgets.py:638
 msgid "Unknown Artist"
 msgstr "Ҳунарманди номаълум"
 
-#: ../gnomemusic/notification.py:89
+#: ../pygsub/notification.py:89
 msgid "Not playing"
 msgstr "Ҳозир пахш намекунад"
 
 #. TRANSLATORS: by refers to the artist, from to the album
-#: ../gnomemusic/notification.py:104
+#: ../pygsub/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "Ҳунарманди %s, албоми %s"
 
-#: ../gnomemusic/notification.py:125 ../data/PlayerToolbar.ui.h:5
+#: ../pygsub/notification.py:125 ../data/PlayerToolbar.ui.h:5
 msgid "Previous"
 msgstr "Қаблӣ"
 
-#: ../gnomemusic/notification.py:128 ../gnomemusic/player.py:519
+#: ../pygsub/notification.py:128 ../pygsub/player.py:519
 msgid "Pause"
 msgstr "Таваққуф"
 
-#: ../gnomemusic/notification.py:131 ../gnomemusic/player.py:522
+#: ../pygsub/notification.py:131 ../pygsub/player.py:522
 #: ../data/PlayerToolbar.ui.h:6
 msgid "Play"
 msgstr "Пахш кардан"
 
-#: ../gnomemusic/notification.py:133 ../data/PlayerToolbar.ui.h:7
+#: ../pygsub/notification.py:133 ../data/PlayerToolbar.ui.h:7
 msgid "Next"
 msgstr "Навбатӣ"
 
-#: ../gnomemusic/player.py:980
+#: ../pygsub/player.py:980
 msgid "Unable to play the file"
 msgstr "Файл пахш карда намешавад"
 
 #. TRANSLATORS: this is a button to launch a codec installer.
 #. %s will be replaced with the software installer's name, e.g.
 #. 'Software' in case of gnome-software.
-#: ../gnomemusic/player.py:985
+#: ../pygsub/player.py:985
 #, python-format
 msgid "_Find in %s"
 msgstr "_Ёфтан дар %s"
 
 #. TRANSLATORS: separator for a list of codecs
-#: ../gnomemusic/player.py:995
+#: ../pygsub/player.py:995
 msgid " and "
 msgstr " ва "
 
 #. TRANSLATORS: separator for a list of codecs
-#: ../gnomemusic/player.py:998
+#: ../pygsub/player.py:998
 msgid ", "
 msgstr ", "
 
-#: ../gnomemusic/player.py:999
+#: ../pygsub/player.py:999
 #, python-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
@@ -208,27 +208,27 @@ msgstr[0] "%s барои пахш кардани файл лозим аст, в�
 msgstr[1] "%s барои пахш кардани файл лозим аст, вале он насб нашудааст."
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:49
+#: ../pygsub/playlists.py:49
 msgid "Most Played"
 msgstr "Бисёр маротиба пахш карда шуд"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:56
+#: ../pygsub/playlists.py:56
 msgid "Never Played"
 msgstr "Ҳеҷ вақт пахш карда нашуд"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:63
+#: ../pygsub/playlists.py:63
 msgid "Recently Played"
 msgstr "Дар қарибӣ пахш карда шуд"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:70
+#: ../pygsub/playlists.py:70
 msgid "Recently Added"
 msgstr "Дар қарибӣ илова карда шуд"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:77
+#: ../pygsub/playlists.py:77
 msgid "Favorite Songs"
 msgstr "Сурудҳои баргузида"
 
@@ -236,120 +236,120 @@ msgstr "Сурудҳои баргузида"
 #. (such as 'the') that should be ignored when alphabetizing artists/albums. This
 #. list should include 'the' regardless of language. If some articles occur more
 #. frequently than others, most common should appear first, least common last.
-#: ../gnomemusic/query.py:69
+#: ../pygsub/query.py:69
 msgid "the a an"
 msgstr "the a an"
 
-#: ../gnomemusic/searchbar.py:58 ../gnomemusic/searchbar.py:101
+#: ../pygsub/searchbar.py:58 ../pygsub/searchbar.py:101
 msgid "All"
 msgstr "Ҳама"
 
-#: ../gnomemusic/searchbar.py:59
+#: ../pygsub/searchbar.py:59
 msgid "Artist"
 msgstr "Ҳунарманд"
 
-#: ../gnomemusic/searchbar.py:60
+#: ../pygsub/searchbar.py:60
 msgid "Album"
 msgstr "Албом"
 
-#: ../gnomemusic/searchbar.py:61
+#: ../pygsub/searchbar.py:61
 msgid "Track Title"
 msgstr "Унвони роҳча"
 
-#: ../gnomemusic/searchbar.py:102
+#: ../pygsub/searchbar.py:102
 msgid "Local"
 msgstr "Маҳаллӣ"
 
-#: ../gnomemusic/searchbar.py:204
+#: ../pygsub/searchbar.py:204
 msgid "Sources"
 msgstr "Манбаҳо"
 
-#: ../gnomemusic/searchbar.py:211
+#: ../pygsub/searchbar.py:211
 msgid "Match"
 msgstr "Мутобиқат"
 
-#: ../gnomemusic/view.py:191 ../gnomemusic/widgets.py:267
-#: ../gnomemusic/widgets.py:515 ../gnomemusic/window.py:302
+#: ../pygsub/view.py:191 ../pygsub/widgets.py:267
+#: ../pygsub/widgets.py:515 ../pygsub/window.py:302
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
 msgstr[0] "%d объект интихоб шудааст"
 msgstr[1] "%d объект интихоб шудаанд"
 
-#: ../gnomemusic/view.py:193 ../gnomemusic/widgets.py:269
-#: ../gnomemusic/widgets.py:517 ../gnomemusic/window.py:306
-#: ../gnomemusic/window.py:318 ../data/headerbar.ui.h:3
+#: ../pygsub/view.py:193 ../pygsub/widgets.py:269
+#: ../pygsub/widgets.py:517 ../pygsub/window.py:306
+#: ../pygsub/window.py:318 ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "Барои интихоби объект онро зер кунед"
 
-#: ../gnomemusic/view.py:279
+#: ../pygsub/view.py:279
 msgid "Music folder"
 msgstr "Ҷузвдони мусиқӣ"
 
-#: ../gnomemusic/view.py:298
+#: ../pygsub/view.py:298
 msgid "Hey DJ"
 msgstr "Hey DJ"
 
-#: ../gnomemusic/view.py:306 ../gnomemusic/view.py:1720
+#: ../pygsub/view.py:306 ../pygsub/view.py:1720
 msgid "Albums"
 msgstr "Албомҳо"
 
-#: ../gnomemusic/view.py:398 ../gnomemusic/view.py:1722
+#: ../pygsub/view.py:398 ../pygsub/view.py:1722
 msgid "Songs"
 msgstr "Сурудҳо"
 
-#: ../gnomemusic/view.py:596 ../gnomemusic/view.py:1721
+#: ../pygsub/view.py:596 ../pygsub/view.py:1721
 msgid "Artists"
 msgstr "Ҳунармандон"
 
-#: ../gnomemusic/view.py:642 ../gnomemusic/view.py:644
-#: ../gnomemusic/widgets.py:524
+#: ../pygsub/view.py:642 ../pygsub/view.py:644
+#: ../pygsub/widgets.py:524
 msgid "All Artists"
 msgstr "Ҳамаи ҳунармандон"
 
-#: ../gnomemusic/view.py:822 ../gnomemusic/view.py:1723
+#: ../pygsub/view.py:822 ../pygsub/view.py:1723
 msgid "Playlists"
 msgstr "Феҳристҳои пахш"
 
-#: ../gnomemusic/view.py:1188
+#: ../pygsub/view.py:1188
 #, python-format
 msgid "%d Song"
 msgid_plural "%d Songs"
 msgstr[0] "%d суруд"
 msgstr[1] "%d суруд"
 
-#: ../gnomemusic/view.py:1325
+#: ../pygsub/view.py:1325
 msgid "Try a different search"
 msgstr "Ҷустуҷӯи дигареро кӯшиш кунед"
 
-#: ../gnomemusic/widgets.py:308 ../gnomemusic/widgets.py:342
+#: ../pygsub/widgets.py:308 ../pygsub/widgets.py:342
 #, python-format
 msgid "%d min"
 msgstr "%d дақиқа"
 
-#: ../gnomemusic/widgets.py:762
+#: ../pygsub/widgets.py:762
 msgid "New Playlist"
 msgstr "Феҳристи пахши нав"
 
-#: ../gnomemusic/window.py:248
+#: ../pygsub/window.py:248
 msgid "Empty"
 msgstr "Холӣ кардан"
 
-#: ../gnomemusic/window.py:330
+#: ../pygsub/window.py:330
 msgid "Loading"
 msgstr "Дар ҳоли боркунӣ"
 
-#: ../gnomemusic/window.py:345
+#: ../pygsub/window.py:345
 msgid "_Undo"
 msgstr "_Ботил сохтан"
 
-#: ../gnomemusic/window.py:346
+#: ../pygsub/window.py:346
 #, python-format
 msgid "Playlist %s removed"
 msgstr "Феҳристҳои пахши %s тоза шуд"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
 msgstr "Ҳуқуқи муаллиф © 2013 Барноманависони Мусиқии GNOME"
 
 #: ../data/AboutDialog.ui.in.h:3
@@ -357,29 +357,29 @@ msgid "A music player and management application for GNOME."
 msgstr "Плеери мусиқӣ ва барномаи идоракунӣ барои GNOME."
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "Гузариш ба вебсайти Мусиқии GNOME"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version.\n"

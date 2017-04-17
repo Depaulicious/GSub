@@ -21,36 +21,36 @@ msgstr ""
 "X-Launchpad-Export-Date: 2015-02-05 07:03+0000\n"
 "X-Generator: Poedit 1.7.4\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "Veličina prozora"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "Veličina prozora(sirina  i visina)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "Pozicija prozora"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "Pozicija prozora (x i y)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "Uvećan prozor"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "Stanje uvećanog prozora."
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "Način ponavljanja reprodukcije"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -63,134 +63,134 @@ msgstr ""
 "pjesama, nema mješanja), \"shuffle\" (mješanje liste pjesama pretpostavlja "
 "ponoviti sve)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "Režim traženja"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "Ako je tačno,bar traženja je prikazan."
 
-#: ../data/org.gnome.Music.gschema.xml.h:12
+#: ../data/eu.depau.GSub.gschema.xml.h:12
 msgid "Notifications mode"
 msgstr "Režim koji podržava obavijesti"
 
-#: ../data/org.gnome.Music.gschema.xml.h:13
+#: ../data/eu.depau.GSub.gschema.xml.h:13
 msgid "Enables or disables playback notifications"
 msgstr "Omogućuje ili onemogućuje obavijesti za reprodukciju"
 
-#: ../data/org.gnome.Music.gschema.xml.h:14
+#: ../data/eu.depau.GSub.gschema.xml.h:14
 msgid "Max chars to display in track name on Artist view"
 msgstr "Paksimalan broj znakova u nazvu kompozicije za pogled izvođača"
 
-#: ../data/org.gnome.Music.gschema.xml.h:15
+#: ../data/eu.depau.GSub.gschema.xml.h:15
 msgid ""
 "This setting modifies the amount of chars for track title on Artist view "
 "before its been ellipsized. Set this to -1 to disable"
 msgstr "Ova postavka mijenja broj znakova za naslov kompozicije na "
 
-#: ../data/org.gnome.Music.gschema.xml.h:16
+#: ../data/eu.depau.GSub.gschema.xml.h:16
 msgid "Enable ReplayGain"
 msgstr "_Omogući „Replay Gain“ poboljšanje"
 
-#: ../data/org.gnome.Music.gschema.xml.h:17
+#: ../data/eu.depau.GSub.gschema.xml.h:17
 msgid "Enables or disables ReplayGain for albums"
 msgstr "Omogućuje ili onemogućuje dobit izvođenja za albume"
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:50
-#: ../gnomemusic/application.py:113 ../gnomemusic/window.py:59
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:50
+#: ../pygsub/application.py:113 ../pygsub/window.py:59
 #: ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "Muzika"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "Muzički program"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "Izvodite i organizirajte svoju muzičku zbirku"
 
-#: ../data/gnome-music.desktop.in.h:4
+#: ../data/gsub.desktop.in.h:4
 msgid "Music;Player;"
 msgstr "Muzika;Plejer;"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "GNOME muzika"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "Music je nova muzička aplikacija GNOME."
 
-#: ../gnomemusic/albumArtCache.py:103 ../gnomemusic/albumArtCache.py:111
+#: ../pygsub/albumArtCache.py:103 ../pygsub/albumArtCache.py:111
 msgid "Untitled"
 msgstr "Bez naslova"
 
-#: ../gnomemusic/mpris.py:148 ../gnomemusic/notification.py:100
-#: ../gnomemusic/player.py:454 ../gnomemusic/view.py:512
-#: ../gnomemusic/view.py:938 ../gnomemusic/view.py:1372
+#: ../pygsub/mpris.py:148 ../pygsub/notification.py:100
+#: ../pygsub/player.py:454 ../pygsub/view.py:512
+#: ../pygsub/view.py:938 ../pygsub/view.py:1372
 msgid "Unknown Album"
 msgstr "Nepoznat album"
 
-#: ../gnomemusic/mpris.py:164 ../gnomemusic/notification.py:98
-#: ../gnomemusic/player.py:445 ../gnomemusic/view.py:222
-#: ../gnomemusic/view.py:432 ../gnomemusic/view.py:684
-#: ../gnomemusic/view.py:1124 ../gnomemusic/view.py:1370
-#: ../gnomemusic/view.py:1405 ../gnomemusic/widgets.py:234
-#: ../gnomemusic/widgets.py:638
+#: ../pygsub/mpris.py:164 ../pygsub/notification.py:98
+#: ../pygsub/player.py:445 ../pygsub/view.py:222
+#: ../pygsub/view.py:432 ../pygsub/view.py:684
+#: ../pygsub/view.py:1124 ../pygsub/view.py:1370
+#: ../pygsub/view.py:1405 ../pygsub/widgets.py:234
+#: ../pygsub/widgets.py:638
 msgid "Unknown Artist"
 msgstr "Nepoznat izvođač"
 
-#: ../gnomemusic/notification.py:89
+#: ../pygsub/notification.py:89
 msgid "Not playing"
 msgstr "Ne izvodi se"
 
 #. TRANSLATORS: by refers to the artist, from to the album
-#: ../gnomemusic/notification.py:104
+#: ../pygsub/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "od %s  ,  do  %s"
 
-#: ../gnomemusic/notification.py:125 ../data/PlayerToolbar.ui.h:5
+#: ../pygsub/notification.py:125 ../data/PlayerToolbar.ui.h:5
 msgid "Previous"
 msgstr "Prethodna"
 
-#: ../gnomemusic/notification.py:128 ../gnomemusic/player.py:402
+#: ../pygsub/notification.py:128 ../pygsub/player.py:402
 msgid "Pause"
 msgstr "Pauziraj"
 
-#: ../gnomemusic/notification.py:131 ../gnomemusic/player.py:405
+#: ../pygsub/notification.py:131 ../pygsub/player.py:405
 #: ../data/PlayerToolbar.ui.h:6
 msgid "Play"
 msgstr "Pokreni"
 
-#: ../gnomemusic/notification.py:133 ../data/PlayerToolbar.ui.h:7
+#: ../pygsub/notification.py:133 ../data/PlayerToolbar.ui.h:7
 msgid "Next"
 msgstr "Sljedeći"
 
 #. TRANSLATORS: this is a playlist nami
-#: ../gnomemusic/playlists.py:49
+#: ../pygsub/playlists.py:49
 msgid "Most Played"
 msgstr "Sa najviše izvođenja"
 
 #. TRANSLATORS: this is a playlist nami
-#: ../gnomemusic/playlists.py:56
+#: ../pygsub/playlists.py:56
 msgid "Never Played"
 msgstr "Nikada nisu izvođene"
 
 #. TRANSLATORS: this is a playlist nami
-#: ../gnomemusic/playlists.py:63
+#: ../pygsub/playlists.py:63
 msgid "Recently Played"
 msgstr "Nedavno izvođene"
 
 #. TRANSLATORS: this is a playlist nami
-#: ../gnomemusic/playlists.py:70
+#: ../pygsub/playlists.py:70
 msgid "Recently Added"
 msgstr "Nedavno dodane"
 
 #. TRANSLATORS: this is a playlist nami
-#: ../gnomemusic/playlists.py:77
+#: ../pygsub/playlists.py:77
 msgid "Favorite Songs"
 msgstr "Omiljene pjesme"
 
@@ -198,40 +198,40 @@ msgstr "Omiljene pjesme"
 #. (such as 'the') that should bje ignored when alphabetizing artists/albums. This
 #. list should include 'the' regardless of language. If some articles occur more
 #. frequently than others, most common should appear first, least common last.
-#: ../gnomemusic/query.py:69
+#: ../pygsub/query.py:69
 msgid "the a an"
 msgstr "the a an"
 
-#: ../gnomemusic/searchbar.py:58 ../gnomemusic/searchbar.py:101
+#: ../pygsub/searchbar.py:58 ../pygsub/searchbar.py:101
 msgid "All"
 msgstr "Svi"
 
-#: ../gnomemusic/searchbar.py:59
+#: ../pygsub/searchbar.py:59
 msgid "Artist"
 msgstr "Izvođač"
 
-#: ../gnomemusic/searchbar.py:60
+#: ../pygsub/searchbar.py:60
 msgid "Album"
 msgstr "Album"
 
-#: ../gnomemusic/searchbar.py:61
+#: ../pygsub/searchbar.py:61
 msgid "Track Title"
 msgstr "Naslov numere"
 
-#: ../gnomemusic/searchbar.py:102
+#: ../pygsub/searchbar.py:102
 msgid "Local"
 msgstr "Lokalno"
 
-#: ../gnomemusic/searchbar.py:204
+#: ../pygsub/searchbar.py:204
 msgid "Sources"
 msgstr "Izvori"
 
-#: ../gnomemusic/searchbar.py:211
+#: ../pygsub/searchbar.py:211
 msgid "Match"
 msgstr "Poveži"
 
-#: ../gnomemusic/view.py:191 ../gnomemusic/widgets.py:275
-#: ../gnomemusic/widgets.py:515 ../gnomemusic/window.py:288
+#: ../pygsub/view.py:191 ../pygsub/widgets.py:275
+#: ../pygsub/widgets.py:515 ../pygsub/window.py:288
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
@@ -239,34 +239,34 @@ msgstr[0] "Odabrana %d stavka"
 msgstr[1] "Odabrane %d stavke"
 msgstr[2] "Odabrano %d stavki"
 
-#: ../gnomemusic/view.py:193 ../gnomemusic/widgets.py:277
-#: ../gnomemusic/widgets.py:517 ../gnomemusic/window.py:292
-#: ../gnomemusic/window.py:304 ../data/headerbar.ui.h:3
+#: ../pygsub/view.py:193 ../pygsub/widgets.py:277
+#: ../pygsub/widgets.py:517 ../pygsub/window.py:292
+#: ../pygsub/window.py:304 ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "Kliknite na stavke da ih označite"
 
-#: ../gnomemusic/view.py:278 ../gnomemusic/view.py:1628
+#: ../pygsub/view.py:278 ../pygsub/view.py:1628
 msgid "Albums"
 msgstr "Albumi"
 
-#: ../gnomemusic/view.py:369 ../gnomemusic/view.py:1630
+#: ../pygsub/view.py:369 ../pygsub/view.py:1630
 msgid "Songs"
 msgstr "Pjesme"
 
-#: ../gnomemusic/view.py:544 ../gnomemusic/view.py:1629
+#: ../pygsub/view.py:544 ../pygsub/view.py:1629
 msgid "Artists"
 msgstr "Izvođači"
 
-#: ../gnomemusic/view.py:590 ../gnomemusic/view.py:592
-#: ../gnomemusic/widgets.py:524
+#: ../pygsub/view.py:590 ../pygsub/view.py:592
+#: ../pygsub/widgets.py:524
 msgid "All Artists"
 msgstr "Svi izvođači"
 
-#: ../gnomemusic/view.py:769 ../gnomemusic/view.py:1631
+#: ../pygsub/view.py:769 ../pygsub/view.py:1631
 msgid "Playlists"
 msgstr "Liste pjesama"
 
-#: ../gnomemusic/view.py:1135
+#: ../pygsub/view.py:1135
 #, python-format
 msgid "%d Song"
 msgid_plural "%d Songs"
@@ -274,64 +274,64 @@ msgstr[0] "%d Pjesma"
 msgstr[1] "%d Pjesme"
 msgstr[2] "%d Pjesama"
 
-#: ../gnomemusic/widgets.py:316 ../gnomemusic/widgets.py:350
+#: ../pygsub/widgets.py:316 ../pygsub/widgets.py:350
 #, python-format
 msgid "%d min"
 msgstr "%d min"
 
-#: ../gnomemusic/widgets.py:762
+#: ../pygsub/widgets.py:762
 msgid "New Playlist"
 msgstr "Nova lista pjesama"
 
-#: ../gnomemusic/window.py:236
+#: ../pygsub/window.py:236
 msgid "Empty"
 msgstr "Prazno"
 
-#: ../gnomemusic/window.py:316
+#: ../pygsub/window.py:316
 msgid "_Undo"
 msgstr "_Poništi"
 
-#: ../gnomemusic/window.py:317
+#: ../pygsub/window.py:317
 #, python-format
 msgid "Playlist %s removed"
 msgstr "Uklonjena lista izvođenje %s"
 
-#: ../gnomemusic/window.py:341
+#: ../pygsub/window.py:341
 msgid "Loading"
 msgstr "Učitava se"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
-msgstr "Autorska prava © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
+msgstr "Autorska prava © 2013 GSub Developers"
 
 #: ../data/AboutDialog.ui.in.h:3
 msgid "A music player and management application for GNOME."
 msgstr "muzička  lista i  upravljačka aplikacija  za GNOME."
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
-msgstr "Posjetite stranicu GNOME Music"
+msgid "Visit GSub website"
+msgstr "Posjetite stranicu GSub"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version."
@@ -341,14 +341,14 @@ msgstr ""
 "fondacije ; ili verzija 2 licence, ili (po svom izboru) bilo koje kasnije "
 "verzije.\n"
 "\n"
-"Trebali ste dobiti kopiju  GNU opće javne licence uz GNOME Music; a ako ne "
+"Trebali ste dobiti kopiju  GNU opće javne licence uz GSub; a ako ne "
 "pišite Free Software fonadaciji,, Inc., 51 Franklin Street, Fifth Floor, "
 "Boston, MA 02110-1301 USA.\n"
 "\n"
-"GNOME Music  autori ovime daju dopuštenje za ne-GPL kompatibilni GStreamer "
+"GSub  autori ovime daju dopuštenje za ne-GPL kompatibilni GStreamer "
 "dodatake koji će se koristiti i distribuirati zajedno s GStreamer i GNOME "
 "Music. Ovo odobrenje je iznad i izvan izdanoj dozvoli  od GPL licence kojom  "
-"je pokrivena i GNOME Music.Ako mjenjate vaš kod,možete pridružiti ovaj "
+"je pokrivena i GSub.Ako mjenjate vaš kod,možete pridružiti ovaj "
 "izuzetak vašoj verziji koda,ali niste obavezni uraditi.Ako ste sigurni da ne "
 "želite,izbrišite ovaj izuzetak iz vaše verzije."
 

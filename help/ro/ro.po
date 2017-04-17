@@ -1,11 +1,11 @@
-# Romanian translation for gnome-music.
-# Copyright (C) 2014 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Romanian translation for gsub.
+# Copyright (C) 2014 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 # Bogdan Mințoi <mintoi.bogdan@gmail.com>, 2014.
 # Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
+"Project-Id-Version: gsub master\n"
 "POT-Creation-Date: 2014-07-29 09:17+0000\n"
 "PO-Revision-Date: 2014-07-29 21:33+0200\n"
 "Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"

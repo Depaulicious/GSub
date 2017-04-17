@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>eu.depau.GSub.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+ and LGPL-2.0+ and CC-BY-SA-4.0</project_license>
+  <_name>GSub</_name>
+  <_summary>Play and organize your music collection</_summary>
+  <description>
+    <_p>
+      Music is the new GNOME music playing application.
+    </_p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://github.com/Depaulicious/GSub/raw/master/data/screenshots/gnome-music-1.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://github.com/Depaulicious/GSub/raw/master/data/screenshots/gnome-music-2.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://github.com/Depaulicious/GSub/raw/master/data/screenshots/gnome-music-3.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://github.com/Depaulicious/GSub/raw/master/data/screenshots/gnome-music-4.png</image>
+    </screenshot>
+  </screenshots>
+  <project_group>GNOME</project_group>
+  <url type="homepage">https://github.com/Depaulicious/GSub</url>
+  <url type="bugtracker">https://github.com/Depaulicious/GSub/issues/</url>
+  <url type="donation">http://paypal.me/DavideDepau/5EUR</url>
+  <url type="help">https://github.com/Depaulicious/GSub</url>
+
+  <kudos>
+    <kudo>AppMenu</kudo>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>ModernToolkit</kudo>
+    <kudo>UserDocs</kudo>
+  </kudos>
+
+  <update_contact>mschraal@gnome.org</update_contact>
+  <translation type="gettext">gsub</translation>
+</component>

@@ -18,36 +18,36 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "Gluggastærð"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "Breidd og hæð glugga."
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "Staðsetning glugga"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "Staðsetning glugga (x og y)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "Gluggi hámarkaður"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "Hámörkunargildi glugga."
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "Endurtekningarhamur afspilunar"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -55,124 +55,124 @@ msgid ""
 "\" (shuffle playlist, presumes repeat all)."
 msgstr ""
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "Leitarhamur"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "Ef hakað er við þetta, birtist leitarstikan."
 
-#: ../data/org.gnome.Music.gschema.xml.h:12
+#: ../data/eu.depau.GSub.gschema.xml.h:12
 msgid "Notifications mode"
 msgstr "Tilkynningahamur"
 
-#: ../data/org.gnome.Music.gschema.xml.h:13
+#: ../data/eu.depau.GSub.gschema.xml.h:13
 msgid "Enables or disables playback notifications"
 msgstr ""
 
-#: ../data/org.gnome.Music.gschema.xml.h:14
+#: ../data/eu.depau.GSub.gschema.xml.h:14
 msgid "Max chars to display in track name on Artist view"
 msgstr ""
 
-#: ../data/org.gnome.Music.gschema.xml.h:15
+#: ../data/eu.depau.GSub.gschema.xml.h:15
 msgid ""
 "This setting modifies the amount of chars for track title on Artist view "
 "before its been ellipsized. Set this to -1 to disable"
 msgstr ""
 
-#: ../data/org.gnome.Music.gschema.xml.h:16
+#: ../data/eu.depau.GSub.gschema.xml.h:16
 msgid "Enable ReplayGain"
 msgstr ""
 
-#: ../data/org.gnome.Music.gschema.xml.h:17
+#: ../data/eu.depau.GSub.gschema.xml.h:17
 msgid "Enables or disables ReplayGain for albums"
 msgstr ""
 
-#: ../data/org.gnome.Music.gschema.xml.h:18
+#: ../data/eu.depau.GSub.gschema.xml.h:18
 msgid "Inital state has been displayed"
 msgstr ""
 
-#: ../data/org.gnome.Music.gschema.xml.h:19
+#: ../data/eu.depau.GSub.gschema.xml.h:19
 msgid "Set to true when initial state has been displayed"
 msgstr ""
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:55
-#: ../gnomemusic/application.py:107 ../gnomemusic/toolbar.py:90
-#: ../gnomemusic/window.py:62 ../data/AboutDialog.ui.in.h:1
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:55
+#: ../pygsub/application.py:107 ../pygsub/toolbar.py:90
+#: ../pygsub/window.py:62 ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "Tónlist"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "Tónlistarspilari"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "Spila og skipuleggja tónlistarsafnið þitt"
 
-#: ../data/gnome-music.desktop.in.h:4
+#: ../data/gsub.desktop.in.h:4
 msgid "Music;Player;"
 msgstr "Tónlist;spilari;"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "GNOME tónlistarspilari"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "Tónlist/Music er nýi GNOME tónlistarspilarinn."
 
-#: ../gnomemusic/albumartcache.py:171 ../gnomemusic/albumartcache.py:179
+#: ../pygsub/albumartcache.py:171 ../pygsub/albumartcache.py:179
 msgid "Untitled"
 msgstr "Ónefnt"
 
-#: ../gnomemusic/mpris.py:315 ../gnomemusic/player.py:604
-#: ../gnomemusic/view.py:758 ../gnomemusic/view.py:1170
-#: ../gnomemusic/view.py:1643
+#: ../pygsub/mpris.py:315 ../pygsub/player.py:604
+#: ../pygsub/view.py:758 ../pygsub/view.py:1170
+#: ../pygsub/view.py:1643
 msgid "Unknown Album"
 msgstr "Óþekkt albúm"
 
-#: ../gnomemusic/notification.py:55 ../data/PlayerToolbar.ui.h:6
+#: ../pygsub/notification.py:55 ../data/PlayerToolbar.ui.h:6
 msgid "Previous"
 msgstr "Fyrra"
 
-#: ../gnomemusic/notification.py:58 ../gnomemusic/player.py:557
+#: ../pygsub/notification.py:58 ../pygsub/player.py:557
 msgid "Pause"
 msgstr "Hlé"
 
-#: ../gnomemusic/notification.py:61 ../gnomemusic/player.py:560
+#: ../pygsub/notification.py:61 ../pygsub/player.py:560
 #: ../data/PlayerToolbar.ui.h:7
 msgid "Play"
 msgstr "Spila"
 
-#: ../gnomemusic/notification.py:63 ../data/PlayerToolbar.ui.h:8
+#: ../pygsub/notification.py:63 ../data/PlayerToolbar.ui.h:8
 msgid "Next"
 msgstr "Næsta"
 
-#: ../gnomemusic/player.py:1087
+#: ../pygsub/player.py:1087
 msgid "Unable to play the file"
 msgstr "Gat ekki spilað skrána"
 
 #. TRANSLATORS: this is a button to launch a codec installer.
 #. %s will be replaced with the software installer's name, e.g.
 #. 'Software' in case of gnome-software.
-#: ../gnomemusic/player.py:1092
+#: ../pygsub/player.py:1092
 #, python-format
 msgid "_Find in %s"
 msgstr "_Finna í %s"
 
 #. TRANSLATORS: separator for a list of codecs
-#: ../gnomemusic/player.py:1102
+#: ../pygsub/player.py:1102
 msgid " and "
 msgstr " og "
 
 #. TRANSLATORS: separator for a list of codecs
-#: ../gnomemusic/player.py:1105
+#: ../pygsub/player.py:1105
 msgid ", "
 msgstr ", "
 
-#: ../gnomemusic/player.py:1106
+#: ../pygsub/player.py:1106
 #, python-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
@@ -180,27 +180,27 @@ msgstr[0] "%s er nauðsynlegt til að spila skrána, en er ekki uppsett."
 msgstr[1] "%s eru nauðsynleg til að spila skrána, en eru ekki uppsett."
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:52
+#: ../pygsub/playlists.py:52
 msgid "Most Played"
 msgstr "Mest spilað"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:58
+#: ../pygsub/playlists.py:58
 msgid "Never Played"
 msgstr "Aldrei spilað"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:64
+#: ../pygsub/playlists.py:64
 msgid "Recently Played"
 msgstr "Nýlega spilað"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:70
+#: ../pygsub/playlists.py:70
 msgid "Recently Added"
 msgstr "Nýlega bætt við"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:76
+#: ../pygsub/playlists.py:76
 msgid "Favorite Songs"
 msgstr "Uppáhaldslög"
 
@@ -211,149 +211,149 @@ msgstr "Uppáhaldslög"
 #. language because it is so universal.
 #. If some articles occur more frequently than others, the most
 #. common one should appear first, the least common one last.
-#: ../gnomemusic/query.py:93
+#: ../pygsub/query.py:93
 msgid "the a an"
 msgstr "the a an hin"
 
-#: ../gnomemusic/searchbar.py:62 ../gnomemusic/searchbar.py:109
+#: ../pygsub/searchbar.py:62 ../pygsub/searchbar.py:109
 msgid "All"
 msgstr "Allt"
 
-#: ../gnomemusic/searchbar.py:63
+#: ../pygsub/searchbar.py:63
 msgid "Artist"
 msgstr "Flytjandi"
 
-#: ../gnomemusic/searchbar.py:64
+#: ../pygsub/searchbar.py:64
 msgid "Album"
 msgstr "Albúm"
 
-#: ../gnomemusic/searchbar.py:65
+#: ../pygsub/searchbar.py:65
 msgid "Track Title"
 msgstr "Heiti lags"
 
-#: ../gnomemusic/searchbar.py:110
+#: ../pygsub/searchbar.py:110
 msgid "Local"
 msgstr "Staðvært"
 
-#: ../gnomemusic/searchbar.py:222
+#: ../pygsub/searchbar.py:222
 msgid "Sources"
 msgstr "Uppruni"
 
-#: ../gnomemusic/searchbar.py:229
+#: ../pygsub/searchbar.py:229
 msgid "Match"
 msgstr "Samsvörun"
 
-#: ../gnomemusic/utils.py:44 ../gnomemusic/view.py:1348
+#: ../pygsub/utils.py:44 ../pygsub/view.py:1348
 msgid "Unknown Artist"
 msgstr "Óþekktur flytjandi"
 
-#: ../gnomemusic/view.py:215 ../gnomemusic/widgets.py:325
-#: ../gnomemusic/widgets.py:590
+#: ../pygsub/view.py:215 ../pygsub/widgets.py:325
+#: ../pygsub/widgets.py:590
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
 msgstr[0] "Valdi %d atriði"
 msgstr[1] "Valdi %d atriði"
 
-#: ../gnomemusic/view.py:217 ../gnomemusic/view.py:311
-#: ../gnomemusic/widgets.py:329 ../gnomemusic/widgets.py:592
+#: ../pygsub/view.py:217 ../pygsub/view.py:311
+#: ../pygsub/widgets.py:329 ../pygsub/widgets.py:592
 #: ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "Smelltu á atriði til að velja þau"
 
-#: ../gnomemusic/view.py:333
+#: ../pygsub/view.py:333
 msgid "Music folder"
 msgstr "Tónlistarmappa"
 
-#: ../gnomemusic/view.py:356
+#: ../pygsub/view.py:356
 msgid "Hey DJ"
 msgstr "Plötusnúður"
 
-#: ../gnomemusic/view.py:368 ../gnomemusic/view.py:1918
+#: ../pygsub/view.py:368 ../pygsub/view.py:1918
 msgid "Albums"
 msgstr "Albúm"
 
-#: ../gnomemusic/view.py:595 ../gnomemusic/view.py:1920
+#: ../pygsub/view.py:595 ../pygsub/view.py:1920
 msgid "Songs"
 msgstr "Lög"
 
-#: ../gnomemusic/view.py:794 ../gnomemusic/view.py:1919
+#: ../pygsub/view.py:794 ../pygsub/view.py:1919
 msgid "Artists"
 msgstr "Flytjendur"
 
-#: ../gnomemusic/view.py:996 ../gnomemusic/view.py:1921
+#: ../pygsub/view.py:996 ../pygsub/view.py:1921
 msgid "Playlists"
 msgstr "Spilunarlistar"
 
-#: ../gnomemusic/view.py:1358
+#: ../pygsub/view.py:1358
 #, python-format
 msgid "%d Song"
 msgid_plural "%d Songs"
 msgstr[0] "%d lag"
 msgstr[1] "%d lög"
 
-#: ../gnomemusic/view.py:1501
+#: ../pygsub/view.py:1501
 msgid "Try a different search"
 msgstr "Reyna aðra leit"
 
-#: ../gnomemusic/widgets.py:381 ../gnomemusic/widgets.py:429
+#: ../pygsub/widgets.py:381 ../pygsub/widgets.py:429
 #, python-format
 msgid "%d min"
 msgstr "%d mín"
 
-#: ../gnomemusic/widgets.py:602
+#: ../pygsub/widgets.py:602
 msgid "All Artists"
 msgstr "Allir flytjendur"
 
-#: ../gnomemusic/window.py:256
+#: ../pygsub/window.py:256
 msgid "Empty"
 msgstr "Tómt"
 
-#: ../gnomemusic/window.py:320
+#: ../pygsub/window.py:320
 msgid "Loading"
 msgstr "Hleð inn"
 
-#: ../gnomemusic/window.py:343
+#: ../pygsub/window.py:343
 msgid "_Undo"
 msgstr "_Afturkalla"
 
-#: ../gnomemusic/window.py:344
+#: ../pygsub/window.py:344
 #, python-format
 msgid "Playlist %s removed"
 msgstr "Spilunarlisti %s fjarlægður"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
-msgstr "Höfundarréttur © 2013 GNOME Music forritararnir"
+msgid "Copyright © 2013 GSub Developers"
+msgstr "Höfundarréttur © 2013 GSub forritararnir"
 
 #: ../data/AboutDialog.ui.in.h:3
 msgid "A music player and management application for GNOME."
 msgstr "Tónlistarspilari og forrit fyrir umsýslu tónlistar fyrir GNOME."
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "Fara á heimasíðu GNOME tónlistarspilarans"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version.\n"
@@ -376,10 +376,10 @@ msgstr ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA.\n"
 "\n"
-"Höfundar GNOME Music gefa hér með leyfi sitt fyrir því að nota megi GStreamer "
+"Höfundar GSub gefa hér með leyfi sitt fyrir því að nota megi GStreamer "
 "viðbætur sem ekki falla undir GPL-notkunarleyfi eða sé ekki dreift með "
-"GStreamer og GNOME Music.  Þessi heimild er rétthærri en kvaðir "
-"GPL-skilmálanna sem GNOME Music fellur undir.  Ef þú breytir þessum kóða, "
+"GStreamer og GSub.  Þessi heimild er rétthærri en kvaðir "
+"GPL-skilmálanna sem GSub fellur undir.  Ef þú breytir þessum kóða, "
 "geturðu víkkað þessa undanþágu til að ná yfir þína útgáfu kóðans, en slíkt er "
 "ekki skylda.  Ef þú ákveður að gera það ekki, eyddu þá þessari undanþágu út "
 "úr þinni útgáfu.\n"

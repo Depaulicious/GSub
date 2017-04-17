@@ -1,10 +1,10 @@
-# Telugu translation for gnome-music.
-# Copyright (C) 2013 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Telugu translation for gsub.
+# Copyright (C) 2013 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 # Praveen Illa <mail2ipn@gmail.com>, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
+"Project-Id-Version: gsub master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "music&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-03-21 15:21+0000\n"
@@ -19,36 +19,36 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "X-Project-Style: gnome\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "కిటికీ పరిమాణం"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "కిటికీ పరిమాణం (వెడల్పు మరియు ఎత్తు)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "కిటికీ స్థానము"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "కిటికీ స్థానము (x మరియు y)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "కిటికీ పెద్దగాచేయబడింది"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "కిటికీ పెద్దగాచేయబడిన స్థితి."
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "ప్లేబ్యాక్ పునరావృత రీతి"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -60,93 +60,93 @@ msgstr ""
 "పునరావృతం చేస్తుంది), \"all\" (పాటలజాబితా పునరావృతం చేయబడుతుంది, గులకరించబడదు), \"shuffle"
 "\" (పాటలజాబితాను గులకరిస్తుంది, అన్నిటి పునరావృతాన్ని ప్రెస్యుమ్ చేస్తుంది)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "శోధన రీతి"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "ఒకవేళ నిజమైతే, శోధన పట్టీ చూపించబడును."
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:46
-#: ../gnomemusic/application.py:102 ../gnomemusic/window.py:58
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:46
+#: ../pygsub/application.py:102 ../pygsub/window.py:58
 #: ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "సంగీతం"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "సంగీత ప్రదర్శకం"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "మీ సంగీత సేకరణను ప్రదర్శించి, నిర్వహించుకోండి"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "గ్నోమ్ సంగీతం"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "సంగీతం అనేది సరికొత్త గ్నోమ్ సంగీత ప్రదర్శక అనువర్తనం."
 
-#: ../gnomemusic/albumArtCache.py:235 ../gnomemusic/albumArtCache.py:243
+#: ../pygsub/albumArtCache.py:235 ../pygsub/albumArtCache.py:243
 msgid "Untitled"
 msgstr "పేరులేదు"
 
-#: ../gnomemusic/notification.py:70
+#: ../pygsub/notification.py:70
 msgid "Not playing"
 msgstr "ప్రదర్శించుటలేదు"
 
-#: ../gnomemusic/notification.py:79 ../gnomemusic/player.py:365
-#: ../gnomemusic/searchbar.py:31 ../gnomemusic/view.py:253
-#: ../gnomemusic/view.py:455 ../gnomemusic/view.py:676
-#: ../gnomemusic/view.py:990
+#: ../pygsub/notification.py:79 ../pygsub/player.py:365
+#: ../pygsub/searchbar.py:31 ../pygsub/view.py:253
+#: ../pygsub/view.py:455 ../pygsub/view.py:676
+#: ../pygsub/view.py:990
 msgid "Unknown Artist"
 msgstr "తెలియని కళాకారుడు"
 
-#: ../gnomemusic/notification.py:81 ../gnomemusic/searchbar.py:32
-#: ../gnomemusic/view.py:553
+#: ../pygsub/notification.py:81 ../pygsub/searchbar.py:32
+#: ../pygsub/view.py:553
 msgid "Unknown Album"
 msgstr "తెలియని ఆల్బమ్"
 
 #. TRANSLATORS: by refers to the artist, from to the album
-#: ../gnomemusic/notification.py:85
+#: ../pygsub/notification.py:85
 #, python-format
 msgid "by %s, from %s"
 msgstr "గాయకులు %s, %s నుండి"
 
-#: ../gnomemusic/notification.py:125
+#: ../pygsub/notification.py:125
 msgid "Previous"
 msgstr "మునుపటిది"
 
-#: ../gnomemusic/notification.py:128
+#: ../pygsub/notification.py:128
 msgid "Pause"
 msgstr "నిలిపివేయి"
 
-#: ../gnomemusic/notification.py:131
+#: ../pygsub/notification.py:131
 msgid "Play"
 msgstr "ఆడించు"
 
-#: ../gnomemusic/notification.py:133
+#: ../pygsub/notification.py:133
 msgid "Next"
 msgstr "తరువాతది"
 
-#: ../gnomemusic/view.py:197 ../gnomemusic/widgets.py:261
-#: ../gnomemusic/window.py:244
+#: ../pygsub/view.py:197 ../pygsub/widgets.py:261
+#: ../pygsub/window.py:244
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
 msgstr[0] "%d అంశం ఎంచుకోబడింది"
 msgstr[1] "%d అంశాలు ఎంచుకోబడ్డాయి"
 
-#: ../gnomemusic/view.py:199 ../gnomemusic/widgets.py:263
-#: ../gnomemusic/window.py:248 ../gnomemusic/window.py:262
+#: ../pygsub/view.py:199 ../pygsub/widgets.py:263
+#: ../pygsub/window.py:248 ../pygsub/window.py:262
 #: ../data/headerbar.ui.in.h:3
 msgid "Click on items to select them"
 msgstr "అంశాలను ఎంచుకోవడానికి వాటిపై నొక్కండి"
 
-#: ../gnomemusic/view.py:322
+#: ../pygsub/view.py:322
 #, python-format
 msgid ""
 "No Music found!\n"
@@ -155,52 +155,52 @@ msgstr ""
 "ఎటువంటి సంగీతం కనపడలేదు!\n"
 " దయచేసి %s సంచయంలో కొన్ని సంగీత దస్త్రాలను పెట్టండి"
 
-#: ../gnomemusic/view.py:329
+#: ../pygsub/view.py:329
 msgid "Albums"
 msgstr "ఆల్బమ్లు"
 
-#: ../gnomemusic/view.py:402
+#: ../pygsub/view.py:402
 msgid "Songs"
 msgstr "పాటలు"
 
-#: ../gnomemusic/view.py:566
+#: ../pygsub/view.py:566
 msgid "Artists"
 msgstr "గాయకులు"
 
-#: ../gnomemusic/view.py:611 ../gnomemusic/view.py:613
-#: ../gnomemusic/widgets.py:451
+#: ../pygsub/view.py:611 ../pygsub/view.py:613
+#: ../pygsub/widgets.py:451
 msgid "All Artists"
 msgstr "అందరు గాయకులు"
 
-#: ../gnomemusic/view.py:743
+#: ../pygsub/view.py:743
 msgid "Playlists"
 msgstr "పాటలజాబితాలు"
 
-#: ../gnomemusic/view.py:1007
+#: ../pygsub/view.py:1007
 #, python-format
 msgid "%d Song"
 msgid_plural "%d Songs"
 msgstr[0] "%d పాట"
 msgstr[1] "%d పాటలు"
 
-#: ../gnomemusic/widgets.py:75 ../gnomemusic/widgets.py:95
+#: ../pygsub/widgets.py:75 ../pygsub/widgets.py:95
 msgid "Load More"
 msgstr "మరిన్ని నింపు"
 
-#: ../gnomemusic/widgets.py:85
+#: ../pygsub/widgets.py:85
 msgid "Loading..."
 msgstr "ఎక్కిస్తున్నాము..."
 
-#: ../gnomemusic/widgets.py:670
+#: ../pygsub/widgets.py:670
 msgid "New Playlist"
 msgstr "కొత్త పాటలజాబితా"
 
-#: ../gnomemusic/window.py:209
+#: ../pygsub/window.py:209
 msgid "Empty"
 msgstr "ఏమీలేవు"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
 msgstr "నకలుహక్కు © 2013 గ్నోమ్ సంగీతం వికాసకులు"
 
 #: ../data/AboutDialog.ui.in.h:3
@@ -208,29 +208,29 @@ msgid "A music player and management application for GNOME."
 msgstr "సంగీత నిర్వహణకై గ్నోమ్ కోసం రూపొందించిన సంగీత ప్రదర్శక అనువర్తనం."
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "గ్నోమ్ సంగీతం జాలగూడును సందర్శించండి"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version."
@@ -247,10 +247,10 @@ msgstr ""
 "Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston. "
 "MA02110-1301, USA కు వ్రాయండి.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version."

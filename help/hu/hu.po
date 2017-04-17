@@ -1,13 +1,13 @@
-# Hungarian translation for gnome-music.
-# Copyright (C) 2014 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Hungarian translation for gsub.
+# Copyright (C) 2014 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 #
 # Balázs Úr <urbalazs@gmail.com>, 2014.
 # Balázs Úr <urbalazs at gmail dot com>, 2014.
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2014, 2015, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
+"Project-Id-Version: gsub master\n"
 "POT-Creation-Date: 2017-02-23 07:23+0000\n"
 "PO-Revision-Date: 2017-03-12 20:55+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng at ubuntu dot com>\n"

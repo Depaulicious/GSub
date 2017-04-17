@@ -1,11 +1,11 @@
-# Irish translations for gnome-music package.
+# Irish translations for gsub package.
 # Copyright (C) 2013 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-music package.
+# This file is distributed under the same license as the gsub package.
 # Seán de Búrca <leftmostcat@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music.master\n"
+"Project-Id-Version: gsub.master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-31 02:15-0600\n"
 "PO-Revision-Date: 2013-08-31 02:31-0600\n"
@@ -18,71 +18,71 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "Méid na fuinneoige"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "Méid na fuinneoige (leithead agus airde)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "Ionad na fuinneoige"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "Ionad na fuinneoige (x agus y)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "Uasmhéadaíodh an fhuinneog"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "Staid uasmhéadaithe na fuinneoige."
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr ""
 
-#: ../data/org.gnome.Music.gschema.xml.h:8
+#: ../data/eu.depau.GSub.gschema.xml.h:8
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\", \"song\", \"all\", \"shuffle\"."
 msgstr ""
 
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid "Search mode"
 msgstr "Mód cuardaigh"
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "If true, the search bar is shown."
 msgstr "Má tá fíor, taispeántar an barra cuardaigh."
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:45
-#: ../gnomemusic/window.py:53 ../data/AboutDialog.ui.in.h:1
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:45
+#: ../pygsub/window.py:53 ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "Ceol"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "Seinnteoir Ceoil"
 
-#: ../data/gnome-music.desktop.in.h:3
+#: ../data/gsub.desktop.in.h:3
 msgid "Play and organize your music collection"
 msgstr "Seinn agus eagraigh do bhailiúchán ceoil"
 
-#: ../gnomemusic/albumArtCache.py:235
+#: ../pygsub/albumArtCache.py:235
 msgid "Untitled"
 msgstr "Gan Teideal"
 
-#: ../gnomemusic/player.py:271 ../gnomemusic/view.py:218
-#: ../gnomemusic/view.py:571
+#: ../pygsub/player.py:271 ../pygsub/view.py:218
+#: ../pygsub/view.py:571
 msgid "Unknown Artist"
 msgstr "Ealaíontóir Anaithnid"
 
-#: ../gnomemusic/view.py:280
+#: ../pygsub/view.py:280
 #, python-format
 msgid ""
 "No Music found!\n"
@@ -91,41 +91,41 @@ msgstr ""
 "Ceol gan aimsiú!\n"
 " Cuir cúpla comhad isteach san fhillteán %s"
 
-#: ../gnomemusic/view.py:287
+#: ../pygsub/view.py:287
 msgid "Albums"
 msgstr "Albaim"
 
-#: ../gnomemusic/view.py:317
+#: ../pygsub/view.py:317
 msgid "Songs"
 msgstr "Amhráin"
 
-#: ../gnomemusic/view.py:462
+#: ../pygsub/view.py:462
 msgid "Playlists"
 msgstr "Seinmliostaí"
 
-#: ../gnomemusic/view.py:468
+#: ../pygsub/view.py:468
 msgid "Artists"
 msgstr "Ealaíontóirí"
 
-#: ../gnomemusic/view.py:506 ../gnomemusic/view.py:508
-#: ../gnomemusic/widgets.py:436
+#: ../pygsub/view.py:506 ../pygsub/view.py:508
+#: ../pygsub/widgets.py:436
 msgid "All Artists"
 msgstr "Gach Ealaíontóir"
 
-#: ../gnomemusic/widgets.py:74 ../gnomemusic/widgets.py:94
+#: ../pygsub/widgets.py:74 ../pygsub/widgets.py:94
 msgid "Load More"
 msgstr "Luchtaigh Tuilleadh"
 
-#: ../gnomemusic/widgets.py:84
+#: ../pygsub/widgets.py:84
 msgid "Loading..."
 msgstr "Á luchtú..."
 
-#: ../gnomemusic/window.py:134
+#: ../pygsub/window.py:134
 msgid "Empty"
 msgstr "Folamh"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
 msgstr "Cóipcheart © 2013 Forbróirí Cheol GNOME"
 
 #: ../data/AboutDialog.ui.in.h:3
@@ -133,29 +133,29 @@ msgid "A music player and management application for GNOME."
 msgstr "Seinnteoir ceoil agus feidhmchlár bhainisteoireacht cheoil do GNOME."
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "Féach an suíomh gréasáin do Cheol GNOME"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version."

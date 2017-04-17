@@ -1,6 +1,6 @@
-# Japanese translation for gnome-music.
-# Copyright (C) 2013 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Japanese translation for gsub.
+# Copyright (C) 2013 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 # DanielaHidemiOyafuso <danielaoyafuso@gmail.com>, 2013.
 # Ikuya Awashiro <ikuya@fruitsbasket.info>, 2014.
 # Kento Tsuji <tuziemon@pclives.org>, 2014.
@@ -9,8 +9,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-music&keywords=I18N+L10N&component=general\n"
+"Project-Id-Version: gsub master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsub&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-03-24 08:11+0000\n"
 "PO-Revision-Date: 2015-03-24 23:21+0900\n"
 "Last-Translator: Hajime Taira <htaira@redhat.com>\n"
@@ -21,165 +21,165 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "ウィンドウサイズ"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "ウィンドウサイズ (幅と高さ) です。"
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "ウィンドウの場所"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "ウィンドウの場所 （xとy）です"
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "ウィンドウ最大化"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "ウィンドウ最大化の状態です。"
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "プレイバックリピートモード"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid "Value identifies whether to repeat or randomize playback through the collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song\" (repeat current song), \"all\" (repeat playlist, no shuffle), \"shuffle\" (shuffle playlist, presumes repeat all)."
 msgstr "コレクションをリピートかランダム再生するかどうかの値です。使用可能な値: \"none\" (リピートとシャッフルを無効にする), \"song\" (再生中の曲をリピートする), \"all\" (プレイリストをリピート、シャッフルしない), \"shuffle\" (プレイリストをシャッフル、 プレイリストの全曲をリピートする)"
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "検索モード"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "trueにすると検索バーを表示します。"
 
-#: ../data/org.gnome.Music.gschema.xml.h:12
+#: ../data/eu.depau.GSub.gschema.xml.h:12
 msgid "Notifications mode"
 msgstr "通知モード"
 
-#: ../data/org.gnome.Music.gschema.xml.h:13
+#: ../data/eu.depau.GSub.gschema.xml.h:13
 msgid "Enables or disables playback notifications"
 msgstr "再生中の曲の通知を有効にするかどうかの設定です。"
 
-#: ../data/org.gnome.Music.gschema.xml.h:14
+#: ../data/eu.depau.GSub.gschema.xml.h:14
 msgid "Max chars to display in track name on Artist view"
 msgstr "アーティストビューに表示するトラック名の最大文字数"
 
-#: ../data/org.gnome.Music.gschema.xml.h:15
+#: ../data/eu.depau.GSub.gschema.xml.h:15
 msgid "This setting modifies the amount of chars for track title on Artist view before its been ellipsized. Set this to -1 to disable"
 msgstr "アーティストビューに表示されるトラック名の文字数を設定します。設定値を超えるとトラック名が省略されます。無効にするには -1 を設定します"
 
-#: ../data/org.gnome.Music.gschema.xml.h:16
+#: ../data/eu.depau.GSub.gschema.xml.h:16
 msgid "Enable ReplayGain"
 msgstr "ReplayGainを有効にする"
 
-#: ../data/org.gnome.Music.gschema.xml.h:17
+#: ../data/eu.depau.GSub.gschema.xml.h:17
 msgid "Enables or disables ReplayGain for albums"
 msgstr "アルバムのReplayGainを有効にするかどうかの設定で。"
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:50
-#: ../gnomemusic/application.py:113 ../gnomemusic/toolbar.py:140
-#: ../gnomemusic/window.py:59 ../data/AboutDialog.ui.in.h:1
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:50
+#: ../pygsub/application.py:113 ../pygsub/toolbar.py:140
+#: ../pygsub/window.py:59 ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "ミュージック"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "音楽プレイヤー"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "音楽コレクションの再生と整理"
 
-#: ../data/gnome-music.desktop.in.h:4
+#: ../data/gsub.desktop.in.h:4
 msgid "Music;Player;"
 msgstr "Music;Player;音楽;ミュージック;再生;プレイヤー;"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "GNOME ミュージック"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "ミュージックは GNOME の新しい音楽再生アプリケーションです。"
 
-#: ../gnomemusic/albumArtCache.py:103 ../gnomemusic/albumArtCache.py:111
+#: ../pygsub/albumArtCache.py:103 ../pygsub/albumArtCache.py:111
 msgid "Untitled"
 msgstr "タイトルなし"
 
-#: ../gnomemusic/mpris.py:148 ../gnomemusic/notification.py:100
-#: ../gnomemusic/player.py:470 ../gnomemusic/view.py:537
-#: ../gnomemusic/view.py:968 ../gnomemusic/view.py:1387
+#: ../pygsub/mpris.py:148 ../pygsub/notification.py:100
+#: ../pygsub/player.py:470 ../pygsub/view.py:537
+#: ../pygsub/view.py:968 ../pygsub/view.py:1387
 msgid "Unknown Album"
 msgstr "不明なアルバム"
 
-#: ../gnomemusic/mpris.py:164 ../gnomemusic/notification.py:98
-#: ../gnomemusic/player.py:461 ../gnomemusic/view.py:222
-#: ../gnomemusic/view.py:437 ../gnomemusic/view.py:710
-#: ../gnomemusic/view.py:1150 ../gnomemusic/view.py:1385
-#: ../gnomemusic/view.py:1421 ../gnomemusic/widgets.py:235
-#: ../gnomemusic/widgets.py:631
+#: ../pygsub/mpris.py:164 ../pygsub/notification.py:98
+#: ../pygsub/player.py:461 ../pygsub/view.py:222
+#: ../pygsub/view.py:437 ../pygsub/view.py:710
+#: ../pygsub/view.py:1150 ../pygsub/view.py:1385
+#: ../pygsub/view.py:1421 ../pygsub/widgets.py:235
+#: ../pygsub/widgets.py:631
 msgid "Unknown Artist"
 msgstr "不明なアーティスト"
 
-#: ../gnomemusic/notification.py:89
+#: ../pygsub/notification.py:89
 msgid "Not playing"
 msgstr "再生していません"
 
 #. TRANSLATORS: by refers to the artist, from to the album
-#: ../gnomemusic/notification.py:104
+#: ../pygsub/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "%s によるアルバム %s"
 
-#: ../gnomemusic/notification.py:125 ../data/PlayerToolbar.ui.h:5
+#: ../pygsub/notification.py:125 ../data/PlayerToolbar.ui.h:5
 msgid "Previous"
 msgstr "前"
 
-#: ../gnomemusic/notification.py:128 ../gnomemusic/player.py:418
+#: ../pygsub/notification.py:128 ../pygsub/player.py:418
 msgid "Pause"
 msgstr "一時停止"
 
-#: ../gnomemusic/notification.py:131 ../gnomemusic/player.py:421
+#: ../pygsub/notification.py:131 ../pygsub/player.py:421
 #: ../data/PlayerToolbar.ui.h:6
 msgid "Play"
 msgstr "再生"
 
-#: ../gnomemusic/notification.py:133 ../data/PlayerToolbar.ui.h:7
+#: ../pygsub/notification.py:133 ../data/PlayerToolbar.ui.h:7
 msgid "Next"
 msgstr "次"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:49
+#: ../pygsub/playlists.py:49
 msgid "Most Played"
 msgstr "最も再生した曲"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:56
+#: ../pygsub/playlists.py:56
 msgid "Never Played"
 msgstr "未再生の曲"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:63
+#: ../pygsub/playlists.py:63
 msgid "Recently Played"
 msgstr "最近再生した曲"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:70
+#: ../pygsub/playlists.py:70
 msgid "Recently Added"
 msgstr "最近追加した曲"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:77
+#: ../pygsub/playlists.py:77
 msgid "Favorite Songs"
 msgstr "お気に入りの曲"
 
@@ -187,133 +187,133 @@ msgstr "お気に入りの曲"
 #. (such as 'the') that should be ignored when alphabetizing artists/albums. This
 #. list should include 'the' regardless of language. If some articles occur more
 #. frequently than others, most common should appear first, least common last.
-#: ../gnomemusic/query.py:69
+#: ../pygsub/query.py:69
 msgid "the a an"
 msgstr "the a an"
 
-#: ../gnomemusic/searchbar.py:58 ../gnomemusic/searchbar.py:101
+#: ../pygsub/searchbar.py:58 ../pygsub/searchbar.py:101
 msgid "All"
 msgstr "すべて"
 
-#: ../gnomemusic/searchbar.py:59
+#: ../pygsub/searchbar.py:59
 msgid "Artist"
 msgstr "アーティスト"
 
-#: ../gnomemusic/searchbar.py:60
+#: ../pygsub/searchbar.py:60
 msgid "Album"
 msgstr "アルバム"
 
-#: ../gnomemusic/searchbar.py:61
+#: ../pygsub/searchbar.py:61
 msgid "Track Title"
 msgstr "トラック名"
 
-#: ../gnomemusic/searchbar.py:102
+#: ../pygsub/searchbar.py:102
 msgid "Local"
 msgstr "ローカル"
 
-#: ../gnomemusic/searchbar.py:204
+#: ../pygsub/searchbar.py:204
 msgid "Sources"
 msgstr "ソース"
 
-#: ../gnomemusic/searchbar.py:211
+#: ../pygsub/searchbar.py:211
 msgid "Match"
 msgstr "一致項目"
 
-#: ../gnomemusic/view.py:190 ../gnomemusic/widgets.py:267
-#: ../gnomemusic/widgets.py:508 ../gnomemusic/window.py:292
+#: ../pygsub/view.py:190 ../pygsub/widgets.py:267
+#: ../pygsub/widgets.py:508 ../pygsub/window.py:292
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
 msgstr[0] "%d 件選択"
 
-#: ../gnomemusic/view.py:192 ../gnomemusic/widgets.py:269
-#: ../gnomemusic/widgets.py:510 ../gnomemusic/window.py:296
-#: ../gnomemusic/window.py:308 ../data/headerbar.ui.h:3
+#: ../pygsub/view.py:192 ../pygsub/widgets.py:269
+#: ../pygsub/widgets.py:510 ../pygsub/window.py:296
+#: ../pygsub/window.py:308 ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "アイテムをクリックして選択"
 
-#: ../gnomemusic/view.py:279 ../gnomemusic/view.py:1645
+#: ../pygsub/view.py:279 ../pygsub/view.py:1645
 msgid "Albums"
 msgstr "アルバム"
 
-#: ../gnomemusic/view.py:371 ../gnomemusic/view.py:1647
+#: ../pygsub/view.py:371 ../pygsub/view.py:1647
 msgid "Songs"
 msgstr "曲"
 
-#: ../gnomemusic/view.py:569 ../gnomemusic/view.py:1646
+#: ../pygsub/view.py:569 ../pygsub/view.py:1646
 msgid "Artists"
 msgstr "アーティスト"
 
-#: ../gnomemusic/view.py:615 ../gnomemusic/view.py:617
-#: ../gnomemusic/widgets.py:517
+#: ../pygsub/view.py:615 ../pygsub/view.py:617
+#: ../pygsub/widgets.py:517
 msgid "All Artists"
 msgstr "すべてのアーティスト"
 
-#: ../gnomemusic/view.py:795 ../gnomemusic/view.py:1648
+#: ../pygsub/view.py:795 ../pygsub/view.py:1648
 msgid "Playlists"
 msgstr "プレイリスト"
 
-#: ../gnomemusic/view.py:1161
+#: ../pygsub/view.py:1161
 #, python-format
 msgid "%d Song"
 msgid_plural "%d Songs"
 msgstr[0] "%d 曲"
 
-#: ../gnomemusic/widgets.py:308 ../gnomemusic/widgets.py:342
+#: ../pygsub/widgets.py:308 ../pygsub/widgets.py:342
 #, python-format
 msgid "%d min"
 msgstr "%d 分"
 
-#: ../gnomemusic/widgets.py:755
+#: ../pygsub/widgets.py:755
 msgid "New Playlist"
 msgstr "新しいプレイリスト"
 
-#: ../gnomemusic/window.py:240
+#: ../pygsub/window.py:240
 msgid "Empty"
 msgstr "空"
 
-#: ../gnomemusic/window.py:320
+#: ../pygsub/window.py:320
 msgid "Loading"
 msgstr "読み込み中"
 
-#: ../gnomemusic/window.py:335
+#: ../pygsub/window.py:335
 msgid "_Undo"
 msgstr "元に戻す(_U)"
 
-#: ../gnomemusic/window.py:336
+#: ../pygsub/window.py:336
 #, python-format
 msgid "Playlist %s removed"
 msgstr "プレイリスト %s を削除しました"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
-msgstr "Copyright © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
+msgstr "Copyright © 2013 GSub Developers"
 
 #: ../data/AboutDialog.ui.in.h:3
 msgid "A music player and management application for GNOME."
 msgstr "GNOME 向け音楽プレイヤーと管理アプリケーション"
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "GNOME ミュージックの Web サイトにアクセスする"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+"GSub is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"GSub is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with GNOME Music; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+"You should have received a copy of the GNU General Public License along with GSub; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and GNOME Music.  This permission is above and beyond the permissions granted by the GPL license by which GNOME Music is covered.  If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version."
+"The GSub authors hereby grant permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and GSub.  This permission is above and beyond the permissions granted by the GPL license by which GSub is covered.  If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version."
 msgstr ""
-"GNOME Music is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+"GSub is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"GSub is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with GNOME Music; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+"You should have received a copy of the GNU General Public License along with GSub; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and GNOME Music.  This permission is above and beyond the permissions granted by the GPL license by which GNOME Music is covered.  If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version."
+"The GSub authors hereby grant permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and GSub.  This permission is above and beyond the permissions granted by the GPL license by which GSub is covered.  If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version."
 
 #: ../data/AlbumWidget.ui.h:1
 msgid "Released"

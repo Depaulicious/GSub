@@ -1,13 +1,13 @@
 ACLOCAL_AMFLAGS = -I m4 -I libgd
 NULL =
 
-bin_SCRIPTS = gnome-music
+bin_SCRIPTS = gsub
 
-SUBDIRS = libgd gnomemusic data po help
+SUBDIRS = libgd pygsub data po help
 
 EXTRA_DIST = \
 	AUTHORS.in \
-	gnome-music.in
+	gsub.in
 	$(NULL)
 
 CLEANFILES = \
@@ -45,7 +45,7 @@ gen-AUTHORS:
 	   mv -f $(distdir)/AUTHORS-tmp $(distdir)/AUTHORS ;           \
 	fi
 
-gnome-music: gnome-music.in Makefile
+gsub: gsub.in Makefile
 	$(AM_V_GEN)sed						\
 		-e s!\@srcdir\@!$(abs_top_srcdir)!	\
 		-e s!\@prefix\@!$(prefix)!		\
@@ -62,7 +62,7 @@ gnome-music: gnome-music.in Makefile
 		< $< > $@
 	chmod a+x $@
 
-all-local: gnome-music
+all-local: gsub
 
 -include $(top_srcdir)/git.mk
 

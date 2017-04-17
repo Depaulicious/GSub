@@ -1,5 +1,5 @@
 # Catalan translation for gnome-calendar.
-# Copyright (C) 2012 gnome-music's COPYRIGHT HOLDER
+# Copyright (C) 2012 gsub's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-calendar package.
 #
 # Jordi Mas i Hernandez <jmas@softcatala.org>, 2013.
@@ -8,7 +8,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
+"Project-Id-Version: gsub master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-20 22:18+0200\n"
 "PO-Revision-Date: 2014-09-20 22:16+0200\n"
@@ -20,36 +20,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bits\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "Mida de la finestra"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "Mida de la finestra (amplada i alçada)"
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "Posició de la finestra"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "Posició de la finestra (x i y)"
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "Finestra maximitzada"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "Estat de la finestra maximitzada."
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "Mode de repetició de la reproducció"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -63,125 +63,125 @@ msgstr ""
 "aleatòriament) i «shuffle» (reprodueix aleatòriament la llista, se suposa "
 "que es repeteixen totes)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "Mode de cerca"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "Si és cert, es mostra la barra de cerca."
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:50
-#: ../gnomemusic/application.py:112 ../gnomemusic/window.py:62
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:50
+#: ../pygsub/application.py:112 ../pygsub/window.py:62
 #: ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "Música"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "Reproductor de música"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "Reproduïu i organitzeu la col·lecció de música"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
-msgstr "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
+msgstr "GSub"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "El Music és la nova aplicació de reproducció de música del GNOME."
 
-#: ../gnomemusic/albumArtCache.py:100 ../gnomemusic/albumArtCache.py:108
+#: ../pygsub/albumArtCache.py:100 ../pygsub/albumArtCache.py:108
 msgid "Untitled"
 msgstr "Sense títol"
 
-#: ../gnomemusic/mpris.py:133 ../gnomemusic/notification.py:100
-#: ../gnomemusic/player.py:400 ../gnomemusic/view.py:574
-#: ../gnomemusic/view.py:961 ../gnomemusic/view.py:1290
+#: ../pygsub/mpris.py:133 ../pygsub/notification.py:100
+#: ../pygsub/player.py:400 ../pygsub/view.py:574
+#: ../pygsub/view.py:961 ../pygsub/view.py:1290
 msgid "Unknown Album"
 msgstr "Àlbum desconegut"
 
-#: ../gnomemusic/mpris.py:149 ../gnomemusic/notification.py:98
-#: ../gnomemusic/player.py:391 ../gnomemusic/view.py:283
-#: ../gnomemusic/view.py:483 ../gnomemusic/view.py:717
-#: ../gnomemusic/view.py:1065 ../gnomemusic/view.py:1288
-#: ../gnomemusic/view.py:1319 ../gnomemusic/widgets.py:181
-#: ../gnomemusic/widgets.py:560
+#: ../pygsub/mpris.py:149 ../pygsub/notification.py:98
+#: ../pygsub/player.py:391 ../pygsub/view.py:283
+#: ../pygsub/view.py:483 ../pygsub/view.py:717
+#: ../pygsub/view.py:1065 ../pygsub/view.py:1288
+#: ../pygsub/view.py:1319 ../pygsub/widgets.py:181
+#: ../pygsub/widgets.py:560
 msgid "Unknown Artist"
 msgstr "Artista desconegut"
 
-#: ../gnomemusic/notification.py:89
+#: ../pygsub/notification.py:89
 msgid "Not playing"
 msgstr "No s'està reproduint"
 
 #. TRANSLATORS: by refers to the artist, from to the album
-#: ../gnomemusic/notification.py:104
+#: ../pygsub/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "per %s, a %s"
 
-#: ../gnomemusic/notification.py:125 ../data/PlayerToolbar.ui.h:5
+#: ../pygsub/notification.py:125 ../data/PlayerToolbar.ui.h:5
 msgid "Previous"
 msgstr "Anterior"
 
-#: ../gnomemusic/notification.py:128 ../gnomemusic/player.py:348
+#: ../pygsub/notification.py:128 ../pygsub/player.py:348
 msgid "Pause"
 msgstr "Fes una pausa"
 
-#: ../gnomemusic/notification.py:131 ../gnomemusic/player.py:351
+#: ../pygsub/notification.py:131 ../pygsub/player.py:351
 #: ../data/PlayerToolbar.ui.h:6
 msgid "Play"
 msgstr "Reprodueix"
 
-#: ../gnomemusic/notification.py:133 ../data/PlayerToolbar.ui.h:7
+#: ../pygsub/notification.py:133 ../data/PlayerToolbar.ui.h:7
 msgid "Next"
 msgstr "Següent"
 
-#: ../gnomemusic/searchbar.py:30 ../gnomemusic/searchbar.py:73
+#: ../pygsub/searchbar.py:30 ../pygsub/searchbar.py:73
 msgid "All"
 msgstr "Totes"
 
-#: ../gnomemusic/searchbar.py:31
+#: ../pygsub/searchbar.py:31
 msgid "Artist"
 msgstr "Artista"
 
-#: ../gnomemusic/searchbar.py:32
+#: ../pygsub/searchbar.py:32
 msgid "Album"
 msgstr "Àlbum"
 
-#: ../gnomemusic/searchbar.py:33
+#: ../pygsub/searchbar.py:33
 msgid "Track Title"
 msgstr "Títol de la peça"
 
-#: ../gnomemusic/searchbar.py:74
+#: ../pygsub/searchbar.py:74
 msgid "Local"
 msgstr "Local"
 
-#: ../gnomemusic/searchbar.py:176
+#: ../pygsub/searchbar.py:176
 msgid "Sources"
 msgstr "Fonts"
 
-#: ../gnomemusic/searchbar.py:183
+#: ../pygsub/searchbar.py:183
 msgid "Match"
 msgstr "Coincidència"
 
-#: ../gnomemusic/view.py:198 ../gnomemusic/widgets.py:222
-#: ../gnomemusic/widgets.py:439 ../gnomemusic/window.py:278
+#: ../pygsub/view.py:198 ../pygsub/widgets.py:222
+#: ../pygsub/widgets.py:439 ../pygsub/window.py:278
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
 msgstr[0] "%d element seleccionat"
 msgstr[1] "%d elements seleccionats"
 
-#: ../gnomemusic/view.py:200 ../gnomemusic/widgets.py:224
-#: ../gnomemusic/widgets.py:441 ../gnomemusic/window.py:282
-#: ../gnomemusic/window.py:294 ../data/headerbar.ui.h:3
+#: ../pygsub/view.py:200 ../pygsub/widgets.py:224
+#: ../pygsub/widgets.py:441 ../pygsub/window.py:282
+#: ../pygsub/window.py:294 ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "Feu clic als elements per seleccionar-los"
 
-#: ../gnomemusic/view.py:337
+#: ../pygsub/view.py:337
 #, python-format
 msgid ""
 "No Music found!\n"
@@ -190,89 +190,89 @@ msgstr ""
 "No s'ha trobat música\n"
 " Copieu alguns fitxers a la carpeta: %s"
 
-#: ../gnomemusic/view.py:345 ../gnomemusic/view.py:1534
+#: ../pygsub/view.py:345 ../pygsub/view.py:1534
 msgid "Albums"
 msgstr "Àlbums"
 
-#: ../gnomemusic/view.py:427 ../gnomemusic/view.py:1536
+#: ../pygsub/view.py:427 ../pygsub/view.py:1536
 msgid "Songs"
 msgstr "Cançons"
 
-#: ../gnomemusic/view.py:591 ../gnomemusic/view.py:1535
+#: ../pygsub/view.py:591 ../pygsub/view.py:1535
 msgid "Artists"
 msgstr "Artistes"
 
-#: ../gnomemusic/view.py:636 ../gnomemusic/view.py:638
-#: ../gnomemusic/widgets.py:448
+#: ../pygsub/view.py:636 ../pygsub/view.py:638
+#: ../pygsub/widgets.py:448
 msgid "All Artists"
 msgstr "Tots els artistes"
 
-#: ../gnomemusic/view.py:797 ../gnomemusic/view.py:1537
+#: ../pygsub/view.py:797 ../pygsub/view.py:1537
 msgid "Playlists"
 msgstr "Llistes de reproducció"
 
-#: ../gnomemusic/view.py:1077
+#: ../pygsub/view.py:1077
 #, python-format
 msgid "%d Song"
 msgid_plural "%d Songs"
 msgstr[0] "%d cançó"
 msgstr[1] "%d cançons"
 
-#: ../gnomemusic/widgets.py:270 ../gnomemusic/widgets.py:308
+#: ../pygsub/widgets.py:270 ../pygsub/widgets.py:308
 #, python-format
 msgid "%d min"
 msgstr "%d min"
 
-#: ../gnomemusic/widgets.py:674
+#: ../pygsub/widgets.py:674
 msgid "New Playlist"
 msgstr "Llista de reproducció nova"
 
-#: ../gnomemusic/window.py:226
+#: ../pygsub/window.py:226
 msgid "Empty"
 msgstr "Buit"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
-msgstr "Copyright © 2013 Desenvolupadors del GNOME Music"
+msgid "Copyright © 2013 GSub Developers"
+msgstr "Copyright © 2013 Desenvolupadors del GSub"
 
 #: ../data/AboutDialog.ui.in.h:3
 msgid "A music player and management application for GNOME."
 msgstr "Una aplicació de reproducció i gestió de música pel GNOME."
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
-msgstr "Visiteu el lloc web del GNOME Music"
+msgid "Visit GSub website"
+msgstr "Visiteu el lloc web del GSub"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version."
 msgstr ""
-"El GNOME Music és programari lliure; podeu redistribuir-lo i/o modificar-lo "
+"El GSub és programari lliure; podeu redistribuir-lo i/o modificar-lo "
 "segons els termes de la llicència pública general GNU publicada per la Free "
 "Software Foundation; siga la versió 2 de la llicència o (segons la vostra "
 "opció) qualsevol versió posterior.\n"
 "\n"
-"El GNOME Music es distribueix amb l'esperança que siga útil, però SENSE CAP "
+"El GSub es distribueix amb l'esperança que siga útil, però SENSE CAP "
 "GARANTIA; ni tan sols amb la garantia implícita de COMERCIALITZACIÓ o "
 "IDONEÏTAT PER A UN PROPÒSIT PARTICULAR. Vegeu la Llicència Pública General "
 "GNU per més detalls.\n"
@@ -281,10 +281,10 @@ msgstr ""
 "Music; si no és el cas, escriviu a la Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"Els autors del GNOME Music presents permeten l'ús i distribució conjunta del "
-"GNOME Music amb connectors GStreamer no compatibles amb la GPL. Este permís "
+"Els autors del GSub presents permeten l'ús i distribució conjunta del "
+"GSub amb connectors GStreamer no compatibles amb la GPL. Este permís "
 "està per sobre dels permisos garantits per la llicència GPL sota la qual es "
-"troba el GNOME Music. Si modifiqueu este codi, podeu estendre esta excepció "
+"troba el GSub. Si modifiqueu este codi, podeu estendre esta excepció "
 "a la vostra versió del codi, però no esteu obligats a fer-ho. Si no voleu "
 "fer-ho, elimineu esta declaració d'excepció de la vostra versió."
 

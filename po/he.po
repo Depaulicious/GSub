@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNOME Music\n"
+"Project-Id-Version: GSub\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-06 12:53+0300\n"
 "PO-Revision-Date: 2016-09-06 12:55+0300\n"
@@ -22,36 +22,36 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "Window size"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "Window size (width and height)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "Window position"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "Window position (x and y)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "Window maximized"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "Window maximized state."
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "Playback repeat mode"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
@@ -61,27 +61,27 @@ msgstr ""
 "Value identifies whether to repeat or randomize playback through the "
 "collection. Allowed values are: \"none\", \"song\", \"all\", \"shuffle\"."
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "Search mode"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "If true, the search bar is shown."
 
-#: ../data/org.gnome.Music.gschema.xml.h:12
+#: ../data/eu.depau.GSub.gschema.xml.h:12
 msgid "Notifications mode"
 msgstr "Notifications mode"
 
-#: ../data/org.gnome.Music.gschema.xml.h:13
+#: ../data/eu.depau.GSub.gschema.xml.h:13
 msgid "Enables or disables playback notifications"
 msgstr "Enables or disables playback notifications"
 
-#: ../data/org.gnome.Music.gschema.xml.h:14
+#: ../data/eu.depau.GSub.gschema.xml.h:14
 msgid "Max chars to display in track name on Artist view"
 msgstr "Max chars to display in track name on Artist view"
 
-#: ../data/org.gnome.Music.gschema.xml.h:15
+#: ../data/eu.depau.GSub.gschema.xml.h:15
 msgid ""
 "This setting modifies the amount of chars for track title on Artist view "
 "before its been ellipsized. Set this to -1 to disable"
@@ -89,98 +89,98 @@ msgstr ""
 "This setting modifies the amount of chars for track title on Artist view "
 "before its been ellipsized. Set this to -1 to disable"
 
-#: ../data/org.gnome.Music.gschema.xml.h:16
+#: ../data/eu.depau.GSub.gschema.xml.h:16
 msgid "Enable ReplayGain"
 msgstr "Enable ReplayGain"
 
-#: ../data/org.gnome.Music.gschema.xml.h:17
+#: ../data/eu.depau.GSub.gschema.xml.h:17
 msgid "Enables or disables ReplayGain for albums"
 msgstr "Enables or disables ReplayGain for albums"
 
-#: ../data/org.gnome.Music.gschema.xml.h:18
+#: ../data/eu.depau.GSub.gschema.xml.h:18
 msgid "Inital state has been displayed"
 msgstr "Inital state has been displayed"
 
-#: ../data/org.gnome.Music.gschema.xml.h:19
+#: ../data/eu.depau.GSub.gschema.xml.h:19
 msgid "Set to true when initial state has been displayed"
 msgstr "Set to true when initial state has been displayed"
 
-#: ../data/gnome-music.desktop.in.h:1 ../gnomemusic/application.py:55
-#: ../gnomemusic/application.py:107 ../gnomemusic/toolbar.py:90
-#: ../gnomemusic/window.py:62 ../data/AboutDialog.ui.in.h:1
+#: ../data/gsub.desktop.in.h:1 ../pygsub/application.py:55
+#: ../pygsub/application.py:107 ../pygsub/toolbar.py:90
+#: ../pygsub/window.py:62 ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "מוזיקה"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "נגן מוזיקה"
 
-#: ../data/gnome-music.desktop.in.h:3 ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3 ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "לנגן ולארגן את אוסף המוזיקה שלך"
 
-#: ../data/gnome-music.desktop.in.h:4
+#: ../data/gsub.desktop.in.h:4
 msgid "Music;Player;"
 msgstr "מוזיקה;מוסיקה;נגן;"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "‏GNOME מוזיקה"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "מוזיקה הוא נגן מוזיקה חדש עבור GNOME"
 
-#: ../gnomemusic/albumartcache.py:171 ../gnomemusic/albumartcache.py:179
+#: ../pygsub/albumartcache.py:171 ../pygsub/albumartcache.py:179
 msgid "Untitled"
 msgstr "ללא כותרת"
 
-#: ../gnomemusic/mpris.py:315 ../gnomemusic/player.py:604
-#: ../gnomemusic/view.py:757 ../gnomemusic/view.py:1169
-#: ../gnomemusic/view.py:1637
+#: ../pygsub/mpris.py:315 ../pygsub/player.py:604
+#: ../pygsub/view.py:757 ../pygsub/view.py:1169
+#: ../pygsub/view.py:1637
 msgid "Unknown Album"
 msgstr "אלבום לא ידוע"
 
-#: ../gnomemusic/notification.py:55 ../data/PlayerToolbar.ui.h:6
+#: ../pygsub/notification.py:55 ../data/PlayerToolbar.ui.h:6
 msgid "Previous"
 msgstr "הקודם"
 
-#: ../gnomemusic/notification.py:58 ../gnomemusic/player.py:557
+#: ../pygsub/notification.py:58 ../pygsub/player.py:557
 msgid "Pause"
 msgstr "השהיה"
 
-#: ../gnomemusic/notification.py:61 ../gnomemusic/player.py:560
+#: ../pygsub/notification.py:61 ../pygsub/player.py:560
 #: ../data/PlayerToolbar.ui.h:7
 msgid "Play"
 msgstr "ניגון"
 
-#: ../gnomemusic/notification.py:63 ../data/PlayerToolbar.ui.h:8
+#: ../pygsub/notification.py:63 ../data/PlayerToolbar.ui.h:8
 msgid "Next"
 msgstr "הבא"
 
-#: ../gnomemusic/player.py:1087
+#: ../pygsub/player.py:1087
 msgid "Unable to play the file"
 msgstr "לא ניתן לנגן את הקובץ"
 
 #. TRANSLATORS: this is a button to launch a codec installer.
 #. %s will be replaced with the software installer's name, e.g.
 #. 'Software' in case of gnome-software.
-#: ../gnomemusic/player.py:1092
+#: ../pygsub/player.py:1092
 #, python-format
 msgid "_Find in %s"
 msgstr "ל_מצוא בתוך %s"
 
 #. TRANSLATORS: separator for a list of codecs
-#: ../gnomemusic/player.py:1102
+#: ../pygsub/player.py:1102
 msgid " and "
 msgstr " ו־"
 
 #. TRANSLATORS: separator for a list of codecs
-#: ../gnomemusic/player.py:1105
+#: ../pygsub/player.py:1105
 msgid ", "
 msgstr ", "
 
-#: ../gnomemusic/player.py:1106
+#: ../pygsub/player.py:1106
 #, python-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
@@ -189,27 +189,27 @@ msgstr[1] "%s נדרשים לניגון הקובץ, אך אלה אינם מות�
 msgstr[2] "%s נדרשים לניגון הקובץ, אך אלה אינם מותקנים."
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:52
+#: ../pygsub/playlists.py:52
 msgid "Most Played"
 msgstr "הושמע ביותר"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:58
+#: ../pygsub/playlists.py:58
 msgid "Never Played"
 msgstr "לעולם לא הושמע"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:64
+#: ../pygsub/playlists.py:64
 msgid "Recently Played"
 msgstr "הושמע לאחרונה"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:70
+#: ../pygsub/playlists.py:70
 msgid "Recently Added"
 msgstr "נוסף לאחרונה"
 
 #. TRANSLATORS: this is a playlist name
-#: ../gnomemusic/playlists.py:76
+#: ../pygsub/playlists.py:76
 msgid "Favorite Songs"
 msgstr "שירים מועדפים"
 
@@ -220,44 +220,44 @@ msgstr "שירים מועדפים"
 #. language because it is so universal.
 #. If some articles occur more frequently than others, the most
 #. common one should appear first, the least common one last.
-#: ../gnomemusic/query.py:93
+#: ../pygsub/query.py:93
 msgid "the a an"
 msgstr "ה"
 
-#: ../gnomemusic/searchbar.py:62 ../gnomemusic/searchbar.py:109
+#: ../pygsub/searchbar.py:62 ../pygsub/searchbar.py:109
 msgid "All"
 msgstr "הכול"
 
-#: ../gnomemusic/searchbar.py:63
+#: ../pygsub/searchbar.py:63
 msgid "Artist"
 msgstr "אמן"
 
-#: ../gnomemusic/searchbar.py:64
+#: ../pygsub/searchbar.py:64
 msgid "Album"
 msgstr "אלבום"
 
-#: ../gnomemusic/searchbar.py:65
+#: ../pygsub/searchbar.py:65
 msgid "Track Title"
 msgstr "כותרת רצועה"
 
-#: ../gnomemusic/searchbar.py:110
+#: ../pygsub/searchbar.py:110
 msgid "Local"
 msgstr "מקומי"
 
-#: ../gnomemusic/searchbar.py:222
+#: ../pygsub/searchbar.py:222
 msgid "Sources"
 msgstr "מקורות"
 
-#: ../gnomemusic/searchbar.py:229
+#: ../pygsub/searchbar.py:229
 msgid "Match"
 msgstr "התאמה"
 
-#: ../gnomemusic/utils.py:44 ../gnomemusic/view.py:1342
+#: ../pygsub/utils.py:44 ../pygsub/view.py:1342
 msgid "Unknown Artist"
 msgstr "אמן לא ידוע"
 
-#: ../gnomemusic/view.py:215 ../gnomemusic/widgets.py:325
-#: ../gnomemusic/widgets.py:590
+#: ../pygsub/view.py:215 ../pygsub/widgets.py:325
+#: ../pygsub/widgets.py:590
 #, python-format
 msgid "Selected %d item"
 msgid_plural "Selected %d items"
@@ -265,37 +265,37 @@ msgstr[0] "פריט %d נבחר"
 msgstr[1] "%d פריטים נבחרו"
 msgstr[2] "%d פריטים נבחרו"
 
-#: ../gnomemusic/view.py:217 ../gnomemusic/view.py:311
-#: ../gnomemusic/widgets.py:329 ../gnomemusic/widgets.py:592
+#: ../pygsub/view.py:217 ../pygsub/view.py:311
+#: ../pygsub/widgets.py:329 ../pygsub/widgets.py:592
 #: ../data/headerbar.ui.h:3
 msgid "Click on items to select them"
 msgstr "יש ללחוץ על פריטים כדי לבחור אותם"
 
-#: ../gnomemusic/view.py:333
+#: ../pygsub/view.py:333
 msgid "Music folder"
 msgstr "תיקיית מוזיקה"
 
-#: ../gnomemusic/view.py:356
+#: ../pygsub/view.py:356
 msgid "Hey DJ"
 msgstr "שלום תקליטן"
 
-#: ../gnomemusic/view.py:368 ../gnomemusic/view.py:1912
+#: ../pygsub/view.py:368 ../pygsub/view.py:1912
 msgid "Albums"
 msgstr "אלבומים"
 
-#: ../gnomemusic/view.py:594 ../gnomemusic/view.py:1914
+#: ../pygsub/view.py:594 ../pygsub/view.py:1914
 msgid "Songs"
 msgstr "שירים"
 
-#: ../gnomemusic/view.py:793 ../gnomemusic/view.py:1913
+#: ../pygsub/view.py:793 ../pygsub/view.py:1913
 msgid "Artists"
 msgstr "אמנים"
 
-#: ../gnomemusic/view.py:995 ../gnomemusic/view.py:1915
+#: ../pygsub/view.py:995 ../pygsub/view.py:1915
 msgid "Playlists"
 msgstr "רשימות השמעה"
 
-#: ../gnomemusic/view.py:1352
+#: ../pygsub/view.py:1352
 #, python-format
 msgid "%d Song"
 msgid_plural "%d Songs"
@@ -303,68 +303,68 @@ msgstr[0] "שיר %d"
 msgstr[1] "%d שירים"
 msgstr[2] "%d שירים"
 
-#: ../gnomemusic/view.py:1495
+#: ../pygsub/view.py:1495
 msgid "Try a different search"
 msgstr "יש לנסות חיפוש שונה"
 
-#: ../gnomemusic/widgets.py:381 ../gnomemusic/widgets.py:429
+#: ../pygsub/widgets.py:381 ../pygsub/widgets.py:429
 #, python-format
 msgid "%d min"
 msgstr "%d דקות"
 
-#: ../gnomemusic/widgets.py:602
+#: ../pygsub/widgets.py:602
 msgid "All Artists"
 msgstr "כל האמנים"
 
-#: ../gnomemusic/window.py:256
+#: ../pygsub/window.py:256
 msgid "Empty"
 msgstr "ריק"
 
-#: ../gnomemusic/window.py:320
+#: ../pygsub/window.py:320
 msgid "Loading"
 msgstr "בטעינה"
 
-#: ../gnomemusic/window.py:343
+#: ../pygsub/window.py:343
 msgid "_Undo"
 msgstr "_ביטול"
 
-#: ../gnomemusic/window.py:344
+#: ../pygsub/window.py:344
 #, python-format
 msgid "Playlist %s removed"
 msgstr "רשימת ההשמעה %s הוסרה"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
-msgstr "כל הזכויות שמורות © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
+msgstr "כל הזכויות שמורות © 2013 GSub Developers"
 
 #: ../data/AboutDialog.ui.in.h:3
 msgid "A music player and management application for GNOME."
 msgstr "נגן מוזיקה ויישום ניהול עבור GNOME"
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "בקר באתר GNOME מוזיקה"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under "
+"GSub is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT "
+"GSub is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+"GSub; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible "
+"The GSub authors hereby grant permission for non-GPL compatible "
 "GStreamer plugins to be used and distributed together with GStreamer and "
-"GNOME Music.  This permission is above and beyond the permissions granted by "
-"the GPL license by which GNOME Music is covered.  If you modify this code, "
+"GSub.  This permission is above and beyond the permissions granted by "
+"the GPL license by which GSub is covered.  If you modify this code, "
 "you may extend this exception to your version of the code, but you are not "
 "obligated to do so.  If you do not wish to do so, delete this exception "
 "statement from your version.\n"
@@ -372,7 +372,7 @@ msgid ""
 "\"Magic of the vinyl\" by Sami Pyylampi image is licensed by CC-BY-SA 2.0 "
 "https://www.flickr.com/photos/_spy_/12270839403\n"
 msgstr ""
-"‏GNOME Music היא תכנה חופשית; ניתן להפיצה מחדש ו/או לשנות אותה לפי תנאי "
+"‏GSub היא תכנה חופשית; ניתן להפיצה מחדש ו/או לשנות אותה לפי תנאי "
 "הרישיון הציבורי הכללי של GNU כפי שפורסם על ידי קרן התכנה החופשית; בין אם "
 "גרסה 2 של הרישיון ובין אם (לבחירתך) כל גרסה מאוחרת יותר.\n"
 "\n"
@@ -382,8 +382,8 @@ msgstr ""
 "הציבורי הכללי של GNU; במידה שלא, ניתן לכתוב ל־Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"היוצרים של GNOME Music מצהירים בזאת כי הם מעניקים הרשאה להפצה של תוספי "
-"GStreamer שאינם מעוגנים תחת ה־GPL יחד עם GStreamer ו־GNOME Music. הרשאה זו "
+"היוצרים של GSub מצהירים בזאת כי הם מעניקים הרשאה להפצה של תוספי "
+"GStreamer שאינם מעוגנים תחת ה־GPL יחד עם GStreamer ו־GSub. הרשאה זו "
 "תקפה על פני ההרשאה הניתנת על־ידי רישיון ה־GPL תחתיו מוגנת התכנית GNOME "
 "Music. כל שינוי בקוד זה עשוי לאלץ אותך להרחיב את החריגה לקוד בגרסה שהכנת, אך "
 "אין כל התחייבות לעשות זאת. אם אין לך עניין לעשות דבר שכזה, יש למחוק את הצהרת "

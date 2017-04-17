@@ -1,10 +1,10 @@
-# Galician translation for gnome-music.
-# Copyright (C) 2014 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Galician translation for gsub.
+# Copyright (C) 2014 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 # Fran Dieguez <frandieguez@gnome.org>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
+"Project-Id-Version: gsub master\n"
 "POT-Creation-Date: 2014-09-11 21:00+0000\n"
 "PO-Revision-Date: 2014-09-12 00:58+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"

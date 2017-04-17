@@ -8,7 +8,7 @@ ACLOCAL_FLAGS="-I libgd ${ACLOCAL_FLAGS}"
 
 test -f $srcdir/configure.ac || {
     echo -n "**Error**: Directory "\`$srcdir\'" does not look like the"
-    echo " top-level gnome-music directory"
+    echo " top-level gsub directory"
     exit 1
 }
 

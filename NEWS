@@ -47,8 +47,8 @@ Bugs fixed:
  777041 Unexpected behaviour of playlist notification actions, sometimes
         deletes, sometimes not
  776668 double click on seek bar pauses the songs
- 779052 MPRIS TrackList GoTo Method Crashes gnome-music
- 779584 Handle coverart extraction in gnome-music
+ 779052 MPRIS TrackList GoTo Method Crashes gsub
+ 779584 Handle coverart extraction in gsub
 
 Thanks to our contributors this release:
  Abhinav Singh
@@ -209,7 +209,7 @@ Bugs fixed:
  772263 Use unicode in translatable strings
  772698 async work
  774260 handle optional album-artist in queries
- 774481 Add missing license header to gnome-music.in
+ 774481 Add missing license header to gsub.in
  773769 songsview: pep cleanup
  772628 player: make progress scale  move smoothly
 
@@ -508,7 +508,7 @@ Bugs fixed:
  754654 Fixes for staticmethod definitions
  754702 Search drop-down doesn't show the right default source
  754836 Toggling search of  when on a albumWidget doesn't make search view disappear
- 754977 gnomemusic/widgets.py using depreciated PARAM_READWRITE
+ 754977 gsub/widgets.py using depreciated PARAM_READWRITE
 
 Translations updated:
  Added Icelandic
@@ -721,7 +721,7 @@ Overview of changes in 3.15.4
  702519 Smart playlists
  742800 Playlist broken due to typo
  742123 Hitting 'cancel' while creating new playlist crashes program
- 731613 gnome-music-3.12.2 fails to start if xdg default directories are not created
+ 731613 gsub-3.12.2 fails to start if xdg default directories are not created
  742011 Query: add a/an to articles
  730269  ReplayGain support?
 
@@ -830,7 +830,7 @@ Overview of changes in 3.13.2
  729100 Media art in notifications is blank instead of symbolic when media art is not found
  729102 Notification doesn't show up when media art doesn't exist
  728255 Don't show playlists in Songs
- 725949 gnome-music buttons have no tooltips
+ 725949 gsub buttons have no tooltips
  728407 Enabling selection mode via right-click doesn't work inside albums in Albums view
  729521 Albums list in Artists view shouldn't be sensitive when in selection mode
  706948 Only show music from my ~/Music folder
@@ -854,9 +854,9 @@ Overview of changes in 3.13.1
 * Bugs fixed:
  724627 Playlists UX review
  726721 Some tracks are identified as 'MediaVideo' and crash in various places
- 727444 gnome-music crashed with OSError in_on_source_added(): [Errno 5] I/O error
+ 727444 gsub crashed with OSError in_on_source_added(): [Errno 5] I/O error
  727522 Accelerator for Select All doesn't work
- 728323 Set the icon name of the window as "gnome-music"
+ 728323 Set the icon name of the window as "gsub"
  724112 Crashes when cannot connect to tracker
  702565 Load cover art on scroll in Albums and Artists view
  699832 Replace Load More with autoloading on pressure
@@ -930,7 +930,7 @@ Overview of changes in 3.11.90
  724025 searchbar isn't styled properly
  724016 don't segment artist list sidebar
  721595 Typing should trigger a search
- 723750 The stack switcher is gone when run gnome-music with GTK+ 3.11
+ 723750 The stack switcher is gone when run gsub with GTK+ 3.11
  709234 Music cannot be run via ssh forwarding
 
 
@@ -1040,7 +1040,7 @@ Overview of changes in 3.9.92
  707632 MPRIS Close command is broken
  707824 No notification when Music starts
  707937 freeze-break branch | Crash when try to start song
- 707938 gnome-music crashes with TypeError: Argument 0 does not allow None as a value
+ 707938 gsub crashes with TypeError: Argument 0 does not allow None as a value
  708102 Thumbnail no longer shows up in MPRIS clients
  708103 Playing default playlist is broken
  708116 Crash in notification when the current track gets hidden while searching

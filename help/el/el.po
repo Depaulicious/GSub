@@ -1,11 +1,11 @@
-# Greek translation for gnome-music.
-# Copyright (C) 2014 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Greek translation for gsub.
+# Copyright (C) 2014 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 # Dimitris Spingos <dmtrs32@gmail.com>, 2014.
 # Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music gnome-3-12\n"
+"Project-Id-Version: gsub gnome-3-12\n"
 "POT-Creation-Date: 2015-10-10 07:53+0000\n"
 "PO-Revision-Date: 2015-10-10 18:17+0300\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"

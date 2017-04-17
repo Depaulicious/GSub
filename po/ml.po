@@ -1,12 +1,12 @@
-# Malayalam translation for gnome-music.
-# Copyright (C) 2013 gnome-music's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-music package.
+# Malayalam translation for gsub.
+# Copyright (C) 2013 gsub's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsub package.
 # Mohammed Sadiq <sadiqpkp@gmail.com>, 2013.
 #Akhilan <akhilkrishnans@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-music master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-music&keywords=I18N+L10N&component=general\n"
+"Project-Id-Version: gsub master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsub&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2013-10-30 18:57+0000\n"
 "PO-Revision-Date: 2014-02-14 14:28+0530\n"
 "Last-Translator: Akhilan <akhilkrishnans@gmail.com>\n"
@@ -16,116 +16,116 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/org.gnome.Music.gschema.xml.h:1
+#: ../data/eu.depau.GSub.gschema.xml.h:1
 msgid "Window size"
 msgstr "ജാലകത്തിന്റെ വലിപ്പം"
 
-#: ../data/org.gnome.Music.gschema.xml.h:2
+#: ../data/eu.depau.GSub.gschema.xml.h:2
 msgid "Window size (width and height)."
 msgstr "ജാലകത്തിന്റെ വലിപ്പം (വീതിയും ഉയരവും)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:3
+#: ../data/eu.depau.GSub.gschema.xml.h:3
 msgid "Window position"
 msgstr "ജാലകത്തിന്റെ സ്ഥാനം"
 
-#: ../data/org.gnome.Music.gschema.xml.h:4
+#: ../data/eu.depau.GSub.gschema.xml.h:4
 msgid "Window position (x and y)."
 msgstr "ജാലകത്തിന്റെ സ്ഥാനം (xഉം yഉം)"
 
-#: ../data/org.gnome.Music.gschema.xml.h:5
+#: ../data/eu.depau.GSub.gschema.xml.h:5
 msgid "Window maximized"
 msgstr "ജാലകം പരമാവധിയാക്കി"
 
-#: ../data/org.gnome.Music.gschema.xml.h:6
+#: ../data/eu.depau.GSub.gschema.xml.h:6
 msgid "Window maximized state."
 msgstr "ജാലകം പരമാവധിയാക്കിയ സ്ഥിതി."
 
-#: ../data/org.gnome.Music.gschema.xml.h:7
+#: ../data/eu.depau.GSub.gschema.xml.h:7
 msgid "Playback repeat mode"
 msgstr "പ്ലേബാക്ക് തുടരുന്ന വിധം"
 
 #. Translators: Don't translate allowed values, just the description in the brackets
-#: ../data/org.gnome.Music.gschema.xml.h:9
+#: ../data/eu.depau.GSub.gschema.xml.h:9
 msgid "Value identifies whether to repeat or randomize playback through the collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song\" (repeat current song), \"all\" (repeat playlist, no shuffle), \"shuffle\" (shuffle playlist, presumes repeat all)."
 msgstr "Value identifies whether to repeat or randomize playback through the collection. Allowed values are: \"none\" (ആവര്‍ത്തനവും കലര്‍ത്തലും ഇല്ല), \"song\" (നിലവിലെ ഗാനം ആവര്‍ത്തിക്കുക), \"all\" (ഗാനനിര ആവര്‍ത്തിക്കുക, കലര്‍ത്തല്‍ ഇല്ല), \"shuffle\" (ഗാനനിര കലര്‍ത്തുക, ഊഹപ്രകാരം എല്ലാം ആവര്‍ത്തിക്കുക)."
 
-#: ../data/org.gnome.Music.gschema.xml.h:10
+#: ../data/eu.depau.GSub.gschema.xml.h:10
 msgid "Search mode"
 msgstr "തിരച്ചില്‍ നടപടി"
 
-#: ../data/org.gnome.Music.gschema.xml.h:11
+#: ../data/eu.depau.GSub.gschema.xml.h:11
 msgid "If true, the search bar is shown."
 msgstr "ശരിയാണെങ്കില്‍, തിരച്ചില്‍ പട്ട കാണിക്കുന്നതാണ്."
 
-#: ../data/gnome-music.desktop.in.h:1
-#: ../gnomemusic/application.py:46
-#: ../gnomemusic/application.py:102
-#: ../gnomemusic/window.py:54
+#: ../data/gsub.desktop.in.h:1
+#: ../pygsub/application.py:46
+#: ../pygsub/application.py:102
+#: ../pygsub/window.py:54
 #: ../data/AboutDialog.ui.in.h:1
 msgid "Music"
 msgstr "മ്യൂസിക്ക്"
 
-#: ../data/gnome-music.desktop.in.h:2
+#: ../data/gsub.desktop.in.h:2
 msgid "Music Player"
 msgstr "മ്യൂസിക്ക് പ്ലേയര്‍"
 
-#: ../data/gnome-music.desktop.in.h:3
-#: ../data/gnome-music.appdata.xml.in.h:2
+#: ../data/gsub.desktop.in.h:3
+#: ../data/gsub.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
 msgstr "ഗാനശേഖരം ക്രമീകരിച്ച് പ്ലേ ചെയ്യുക"
 
-#: ../data/gnome-music.appdata.xml.in.h:1
-msgid "GNOME Music"
+#: ../data/gsub.appdata.xml.in.h:1
+msgid "GSub"
 msgstr "ഗ്നോം മ്യൂസിക്ക്"
 
-#: ../data/gnome-music.appdata.xml.in.h:3
+#: ../data/gsub.appdata.xml.in.h:3
 msgid "Music is the new GNOME music playing application."
 msgstr "മ്യൂസിക്ക് പുതിയ സംഗീതം പ്ലേ ചെയ്യാന്നുള്ള ഗ്നോം അപ്ലിക്കേഷന്‍ ആണു. "
 
-#: ../gnomemusic/albumArtCache.py:235
+#: ../pygsub/albumArtCache.py:235
 msgid "Untitled"
 msgstr "പേരില്ലാത്തത്"
 
-#: ../gnomemusic/notification.py:70
+#: ../pygsub/notification.py:70
 msgid "Not playing"
 msgstr "പാടുന്നില്ല"
 
-#: ../gnomemusic/notification.py:77
-#: ../gnomemusic/player.py:350
-#: ../gnomemusic/view.py:229
-#: ../gnomemusic/view.py:377
-#: ../gnomemusic/view.py:591
+#: ../pygsub/notification.py:77
+#: ../pygsub/player.py:350
+#: ../pygsub/view.py:229
+#: ../pygsub/view.py:377
+#: ../pygsub/view.py:591
 msgid "Unknown Artist"
 msgstr "അജ്ഞാത ഗായകന്‍"
 
-#: ../gnomemusic/notification.py:79
-#: ../gnomemusic/view.py:475
+#: ../pygsub/notification.py:79
+#: ../pygsub/view.py:475
 msgid "Unknown Album"
 msgstr "അജ്ഞാത ആല്‍ബം"
 
 #. TRANSLATORS: by refers to the artist, from to the album
-#: ../gnomemusic/notification.py:83
+#: ../pygsub/notification.py:83
 #, python-format
 msgid "by %s, from %s"
 msgstr "%s കൊണ്ട്‌, %s നിന്നും"
 
-#: ../gnomemusic/notification.py:123
+#: ../pygsub/notification.py:123
 msgid "Previous"
 msgstr "മുമ്പിലത്തെ"
 
-#: ../gnomemusic/notification.py:126
+#: ../pygsub/notification.py:126
 msgid "Pause"
 msgstr "വിരാമം"
 
-#: ../gnomemusic/notification.py:129
+#: ../pygsub/notification.py:129
 msgid "Play"
 msgstr "പ്ലേ"
 
-#: ../gnomemusic/notification.py:131
+#: ../pygsub/notification.py:131
 msgid "Next"
 msgstr "അടുത്തത്"
 
-#: ../gnomemusic/view.py:294
+#: ../pygsub/view.py:294
 #, python-format
 msgid ""
 "No Music found!\n"
@@ -134,62 +134,62 @@ msgstr ""
 "സംഗീതമൊന്നും കണ്ടെത്തിയില്ല\n"
 "%s എന്ന ഫോള്‍ഡറിലേക്ക് കുറച്ച് രേഖകള്‍ ചേര്‍ക്കുക"
 
-#: ../gnomemusic/view.py:301
+#: ../pygsub/view.py:301
 msgid "Albums"
 msgstr "ആല്‍ബം"
 
-#: ../gnomemusic/view.py:333
+#: ../pygsub/view.py:333
 msgid "Songs"
 msgstr "പാട്ടുകള്‍"
 
-#: ../gnomemusic/view.py:484
+#: ../pygsub/view.py:484
 msgid "Playlists"
 msgstr "ഗാനനിരകള്‍"
 
-#: ../gnomemusic/view.py:490
+#: ../pygsub/view.py:490
 msgid "Artists"
 msgstr "ഗായകര്‍"
 
-#: ../gnomemusic/view.py:526
-#: ../gnomemusic/view.py:528
-#: ../gnomemusic/widgets.py:443
+#: ../pygsub/view.py:526
+#: ../pygsub/view.py:528
+#: ../pygsub/widgets.py:443
 msgid "All Artists"
 msgstr "എല്ലാ ഗായകരും"
 
-#: ../gnomemusic/widgets.py:73
-#: ../gnomemusic/widgets.py:93
+#: ../pygsub/widgets.py:73
+#: ../pygsub/widgets.py:93
 msgid "Load More"
 msgstr "കൂടുതല്‍ ലഭ്യമാക്കുക"
 
-#: ../gnomemusic/widgets.py:83
+#: ../pygsub/widgets.py:83
 msgid "Loading..."
 msgstr "ലഭ്യമാക്കിക്കൊണ്ടിരിക്കുന്നു..."
 
-#: ../gnomemusic/window.py:165
+#: ../pygsub/window.py:165
 msgid "Empty"
 msgstr "കാലിയാണ്"
 
 #: ../data/AboutDialog.ui.in.h:2
-msgid "Copyright © 2013 GNOME Music Developers"
-msgstr "പകര്‍പ്പാവകാശം © 2013 GNOME Music Developers"
+msgid "Copyright © 2013 GSub Developers"
+msgstr "പകര്‍പ്പാവകാശം © 2013 GSub Developers"
 
 #: ../data/AboutDialog.ui.in.h:3
 msgid "A music player and management application for GNOME."
 msgstr "ഗ്നോംനു വേണ്ടിയുള്ള സംഗീതം കേള്‍ക്കാനും നടത്തിപ്പിനും വേണ്ടിയുള്ള അപ്ലിക്കേഷന്‍."
 
 #: ../data/AboutDialog.ui.in.h:4
-msgid "Visit GNOME Music website"
+msgid "Visit GSub website"
 msgstr "ഗ്നോം മ്യൂസിക്ക് വെബ്താള്‍ സന്ദര്‍ശിക്കുക"
 
 #: ../data/AboutDialog.ui.in.h:5
 msgid ""
-"GNOME Music is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+"GSub is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
 "\n"
-"GNOME Music is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"GSub is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with GNOME Music; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+"You should have received a copy of the GNU General Public License along with GSub; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 "\n"
-"The GNOME Music authors hereby grant permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and GNOME Music.  This permission is above and beyond the permissions granted by the GPL license by which GNOME Music is covered.  If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version."
+"The GSub authors hereby grant permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and GSub.  This permission is above and beyond the permissions granted by the GPL license by which GSub is covered.  If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version."
 msgstr ""
 "ഗ്നോം മ്യൂസിക്ക് ഒരു സൗജന്യ സോഫ്റ്റ്വെയര്‍ ആണ്. ഗ്നു ജനറല്‍ പബ്ലിക്ക് ലൈസന്‍സനു കീഴെ വ്യവസ്ഥകള്‍ അനുസരിച്ചു് താങ്കള്‍ക്കു വീണ്ടും വിതരണം ചെയ്യാനും മാറ്റം വരുത്താനും കഴിയും; രണ്ടാം പതിപ്പോ (താങ്കളുടെ അഭിപ്രായപ്രകാരം)അല്ലെങ്കില്‍ അതില്‍ പുതിയ പതിപ്പോ ഉപയോഗിക്കാം.\n"
 "\n"

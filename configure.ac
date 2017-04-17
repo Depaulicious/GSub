@@ -1,9 +1,9 @@
 AC_PREREQ(2.63)
-AC_INIT([gnome-music],
+AC_INIT([gsub],
         [3.24.1.1],
-        [https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-music],
-        [gnome-music],
-        [https://wiki.gnome.org/Apps/Music])
+        [https://github.com/Depaulicious/GSub/issues/],
+        [gsub],
+        [https://github.com/Depaulicious/GSub])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([Makefile.am])
 AC_CONFIG_HEADERS(config.h)
@@ -13,7 +13,7 @@ m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 
 AM_PATH_PYTHON([3.3])
 
-GETTEXT_PACKAGE=gnome-music
+GETTEXT_PACKAGE=gsub
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE",
                    [The prefix for our gettext translation domains.])
@@ -52,9 +52,9 @@ AC_CONFIG_FILES([
   data/Makefile
   help/Makefile
   data/AboutDialog.ui
-  gnomemusic/Makefile
-  gnomemusic/views/Makefile
-  gnomemusic/widgets/Makefile
+  pygsub/Makefile
+  pygsub/views/Makefile
+  pygsub/widgets/Makefile
   po/Makefile.in
   libgd/Makefile
 ])
